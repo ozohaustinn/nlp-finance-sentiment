@@ -1,0 +1,98 @@
+{
+  "ticker": "C",
+  "period": "2026-05-10T21:20:01.934327",
+  "run_at": "2026-05-10T21:20:54.090998",
+  "acquisition": {
+    "mda_char_count": 161026
+  },
+  "pipeline": {
+    "stats": {
+      "total_sentences": 787,
+      "clean_sentences": 641,
+      "risk_flagged": 312,
+      "coverage_pct": 48.7
+    },
+    "top_tfidf_terms": [
+      {
+        "term": "value",
+        "score": 19.0
+      },
+      {
+        "term": "fair",
+        "score": 18.291
+      },
+      {
+        "term": "fair value",
+        "score": 16.71
+      },
+      {
+        "term": "loans",
+        "score": 12.629
+      },
+      {
+        "term": "credit",
+        "score": 11.524
+      },
+      {
+        "term": "citi",
+        "score": 11.17
+      },
+      {
+        "term": "company",
+        "score": 10.187
+      },
+      {
+        "term": "income",
+        "score": 8.395
+      },
+      {
+        "term": "assets",
+        "score": 7.957
+      },
+      {
+        "term": "securities",
+        "score": 7.642
+      },
+      {
+        "term": "losses",
+        "score": 7.605
+      },
+      {
+        "term": "consolidated",
+        "score": 7.022
+      },
+      {
+        "term": "liabilities",
+        "score": 6.863
+      },
+      {
+        "term": "financial",
+        "score": 6.567
+      },
+      {
+        "term": "changes",
+        "score": 6.56
+      }
+    ]
+  },
+  "sentiment": {
+    "model": "ProsusAI/finbert",
+    "summary": {
+      "total_scored": 312,
+      "overall_sentiment_score": -0.0254,
+      "mean_confidence": 0.8948,
+      "low_confidence_count": 11,
+      "distribution": {
+        "positive": 6,
+        "negative": 18,
+        "neutral": 288
+      },
+      "by_category": {
+        "credit_risk": -0.025,
+        "market_risk": -0.0095,
+        "macro_signals": 0.0016,
+        "liquidity_risk": -0.0422
+      }
+    }
+  }
+}

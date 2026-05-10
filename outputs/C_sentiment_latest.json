@@ -1,0 +1,4000 @@
+{
+  "ticker": "C",
+  "scored_at": "2026-05-10T21:20:54.030313",
+  "model": "ProsusAI/finbert",
+  "summary": {
+    "total_scored": 312,
+    "overall_sentiment_score": -0.0254,
+    "mean_confidence": 0.8948,
+    "low_confidence_count": 11,
+    "distribution": {
+      "positive": 6,
+      "negative": 18,
+      "neutral": 288
+    },
+    "by_category": {
+      "credit_risk": -0.025,
+      "market_risk": -0.0095,
+      "macro_signals": 0.0016,
+      "liquidity_risk": -0.0422
+    }
+  },
+  "scored_sentences": [
+    {
+      "sentence": "Actual results of operations and financial conditions, including capital and liquidity, may differ materially from those included in these statements due to a variety of factors, including without limitation (i) the precautionary statements included within the “Executive Summary,” “Citi’s Multiyear Transformation” and each business’s discussion and analysis of its results of operations above, as well as those included within Citi’s First Quarter of 2025 Form 10-Q, Citi’s 2024 Form 10-K and Citi’s other SEC filings; (ii) the factors described under “Risk Factors” in Citi’s 2024 Form 10-K; and (iii) the risks and uncertainties summarized below: • the potential impact to Citi and its clients and customers in the U.S. and globally related to U.S. trade and tariff policies and resulting retaliatory actions, including heightened market volatility and increased economic uncertainty, such as negative impacts to inflation and global economic activity, disruptions in global supply chains and trade flows, deterioration in corporate and consumer confidence and other adverse macroeconomic impacts; • the potential impact to Citi from other macroeconomic and geopolitical tensions, conflicts and other challenges, uncertainties and volatility, including, among others, government fiscal and monetary actions or expected actions, including changes in interest rate policy or other monetary policies; conflicts in the Middle East, between Russia and Ukraine and in other regions; economic and geopolitical challenges related to China, including weak economic growth and related policy actions, challenges in its real estate sector, banking and credit markets and tensions or conflicts between China and Taiwan and/or involving China and the U.S.; natural disasters; and pandemics; • the potential impact on Citi’s ability to return capital to common shareholders, whether through its common stock dividend or through its stock repurchase program, consistent with its capital planning efforts and targets, due to, among other things, regulatory capital requirements, including annual recalibration of the Stress Capital Buffer, recalibration of the GSIB surcharge and supervisory expectations and assessments, including any negative findings regarding absolute capital levels or other aspects of Citi’s operations; changes in regulatory capital rules, requirements or interpretations, including significant revisions to the U.S. Basel III rules; Citi’s results of operations and financial condition, including the capital impact related to Citi’s remaining divestitures; Citi’s effectiveness in planning, managing and calculating its level of regulatory capital and risk-weighted assets under both the Advanced Approaches and the Standardized Approach and Supplementary Leverage ratio; Citi’s implementation and maintenance of an effective capital planning process and management framework; forecasts of macroeconomic conditions; and Citi’s DTA utilization; • the ongoing regulatory and legislative uncertainties and changes faced by financial institutions, including Citi, in the U.S. and globally, such as potential changes to various aspects of the U.S. regulatory capital framework and requirements applicable to Citi; potential fiscal, monetary, tax, sanctions, human capital and other changes from the U.S. federal government and other governments; and the potential impact these uncertainties and changes could have on Citi’s competitive position, businesses, revenues, results of operations and financial condition and compliance risks and costs; • Citi’s ability to achieve its objectives, including those related to revenue, net interest income, expense and capital expectations, from its priorities regarding its simplification, transformation and enhanced business performance, including the planned IPO of Banamex, which involve significant complexities, execution challenges and uncertainties, may not be as productive or effective as Citi expects or at all, may result in higher-than-expected expenses or lower expense savings or revenue growth than expected, litigation and regulatory scrutiny, CTA and other losses or other negative financial or strategic impacts, which could be material, and depend, in part, on factors that Citi cannot control or be able to mitigate, including, among others, macroeconomic challenges and uncertainties, customer, client and competitor actions, regulatory requirements or changes and heightened regulatory and supervisory expectations and scrutiny; • the potential impact to Citi from climate change due to both physical risks, including acute risks as well as the consequences of chronic changes in climate, and transition risks, including those arising from regulatory, market, technological, stakeholder and legal changes from a transition to a low-carbon economy, such as increased regulatory, compliance, credit, reputational and other risks and costs; 96 • Citi’s ability to utilize its DTAs and thus reduce the negative impact of the DTAs on Citi’s regulatory capital, including as a result of its ability to generate U.S. taxable income in the relevant reversal periods or changes to the U.S. federal corporate tax rate; • the potential impact to Citi if its interpretation or application of the complex income-based and non- income-based (such as withholding, stamp, service and other non-income taxes) tax laws to which it is subject in the U.S. and in non-U.S. jurisdictions differs from those of the relevant governmental taxing authorities, including as a result of litigation or examinations regarding non- income-based tax matters, and the resulting payment of additional taxes, penalties or interest, the reduction of certain tax benefits or the requirement to make adjustments to amounts recorded; • the potential impact from a deterioration in or failure to maintain Citi’s co-branding or private label credit card relationships, due to, among other things, increasing competition among card issuers; the general economic environment, including the impacts stemming from potential increases in unemployment, inflation or interest rates or lower economic growth rates, as well as a risk of recession; changes in consumer sentiment, spending patterns and credit card usage behaviors; a decline in sales and revenues, partner store closures or other operational difficulties of the retailer or merchant; changes in partner business strategies, including changes in products and services offered; termination or non-renewal of partner agreements, including early termination of a particular relationship; or other factors, including partner bankruptcies, liquidations, restructurings, consolidations or other similar events, whether due to the impact of a challenging macroeconomic environment or otherwise; • Citi’s ability to address shortcomings or deficiencies or guidance provided by the FRB or FDIC on its resolution plan submissions; • the potential impact on Citi’s performance and the performance of its individual businesses, including its competitive position and ability to effectively manage its businesses, and its ability to effectively execute its transformation, simplification and other priorities, if Citi is unable to hire and retain qualified employees, particularly given the highly competitive environment for talent and other factors, such as potential attrition driven by, among other things, changes in worker expectations and regulation of employee compensation in the banking industry; • Citi’s ability to compete effectively in the U.S. and globally with both financial and non-financial services firms, including as a result of certain competitors being subject to less stringent legal, regulatory and supervisory requirements; the introduction of mobile platforms and new or emerging technologies, such as artificial intelligence (AI)–driven solutions; mergers and acquisitions involving traditional financial services companies such as regional banks or credit card issuers; changes in the payments space; developments in digital finance, including growth and use of digital assets resulting from regulatory and other changes driven by the U.S. administration and Congress; reliance on third parties for certain product and service offerings and any impact if a third party is unable to provide adequate support for such product and service offerings; and the increased operational, compliance and other risks resulting from the need to develop new or change or adapt existing products and services to attract and retain customers or clients or adapt to their changing policies or priorities to compete more effectively; • the potential impact to Citi from a prior or future failure or disruption of its operational processes or systems, including as a result of, among other things, operational or execution failures or deficiencies by third parties, including third parties that provide products or services to Citi or other market participants or those that otherwise have an ongoing partnership or business relationship with Citi; deficiencies in processes or controls; inadequate management of data governance practices, data controls and monitoring mechanisms that may adversely impact internal or external reporting and decision-making; cyber or information security incidents; human error, such as manual transaction processing errors, which can be exacerbated by staffing challenges and processing backlogs; ineffective, inadequate or faulty Generative AI development or deployment practices by Citi or third parties; fraud or malice on the part of employees or third parties; insufficient (or limited) straight-through processing between legacy or bespoke systems and any failure to design and effectively operate controls that mitigate operational risks associated with those legacy or bespoke systems, leading to potential risk of errors and operating losses; accidental system or technological failure; electrical or telecommunication outages; failure of or cyber incidents involving computer servers or infrastructure, including software updates and cloud services; and other similar losses or damage to Citi’s property or assets; • the increasing risk to Citi’s and third parties’ computer systems, software and networks from ongoing, continually evolving, sophisticated cybersecurity incidents that could result in, among other things, the theft, loss, non-availability, misuse or disclosure of personal, confidential or proprietary Citi, client, customer or employee information or assets and a disruption of computer, software or network systems; and the potential impact from such risks, including reputational damage, loss of revenues, deposit outflows, additional costs (including repair, replacement, remediation and other costs), exposure to litigation and regulatory action and other financial losses; • the potential impact of changes or errors in accounting assumptions, judgments or estimates, or the application of certain accounting principles, related to the preparation of Citi’s financial statements, including the estimate of Citi’s ACL, which is subject to judgments and depends on its CECL models and assumptions, forecasted macroeconomic conditions, which can be more challenging to forecast during times of significant market volatility and uncertainty, and characteristics of Citi’s loan portfolios and other applicable financial assets; 97 reserves related to litigation, regulatory and tax matters; valuation of DTAs; the fair values of certain assets and liabilities and the assessment of goodwill and other assets for impairment; and the financial impact from reclassification of any CTA component of AOCI into Citi’s earnings due to a sale, substantial liquidation, expropriation or other deconsolidation event, such as those related to Citi’s remaining consumer banking divestitures or other legacy businesses; • the impact of changes to financial accounting and reporting standards or interpretations of how Citi records and reports its financial condition and results of operations; • the potential impact to Citi’s results of operations and/or regulatory capital and capital ratios if Citi’s risk management and other processes, strategies or models are deficient or ineffective, including, among others, those related to its comprehensive stress testing initiatives or management and aggregation of data; Citi’s Basel III regulatory capital models require refinement, modification or enhancement; or any negative regulatory evaluation or examination finding is issued or enforcement action is taken by Citi’s U.S. banking regulators; • the potential impact of credit risk and concentrations of risk on Citi’s results of operations, including due to higher-than-expected defaults by or a significant downgrade in credit ratings of consumer, corporate or public sector borrowers or other counterparties in the U.S. or in various countries and jurisdictions globally, such as from indemnification obligations in connection with various transactions, including hedging or reinsurance arrangements related to those obligations, or Citi’s inability to liquidate or realize the fair value of its collateral, which risks can be heightened for vulnerable sectors, industries or countries impacted by macroeconomic, geopolitical, market and other challenges, uncertainties and volatilities; • the potential impact on Citi’s liquidity, sources of funding and costs of funding if it does not effectively manage its liquidity whether due to factors it cannot control or otherwise, including, among others, general disruptions in the financial markets; changes in fiscal and monetary policies; regulatory requirements, including changes in regulations; negative investor or counterparty perceptions of Citi’s creditworthiness; deposit outflows or unfavorable changes in deposit mix; unexpected increases in cash or collateral requirements; competition for funding, including for deposits and any decrease in demand for corporate debt securities; the consequent inability to monetize available liquidity resources; changes in Citi’s credit spreads; changes in interest rates; and changes in currency exchange rates; • the impact of a credit ratings downgrade of Citi or certain of its subsidiaries or issuing entities, or from negative actions on U.S. sovereign ratings or on Citi’s funding and liquidity as well as on the results of operations of certain of its businesses; • the potential impact to Citi of significantly heightened regulatory and supervisory expectations and scrutiny in the U.S. and globally and ongoing interpretation and implementation of regulatory and legislative requirements and changes, with respect to, among other things, governance, infrastructure, data, risk management practices and controls, customer and client protection, market practices, anti-money laundering, increasingly complex sanctions and disclosure regimes and various regulatory reporting requirements, including the impact on Citi’s compliance, regulatory and other risks and costs, such as increased regulatory oversight, material restrictions, including, among others, imposition of additional capital buffers and limitations on capital distributions, enforcement proceedings, penalties and fines; • the potential outcomes of the extensive legal and regulatory proceedings, examinations, investigations, consent orders and related compliance efforts and other inquiries to which Citi is or may be subject at any given time, such as the 2020 consent orders with the FRB and OCC and the amendment to the 2020 OCC consent order, particularly given the increased focus by regulators on risk and controls, such as enterprise-wide risk management, compliance, data quality management and governance and internal controls, and policies and procedures; Citi’s ability to implement extensive targeted action plans and submit quarterly progress reports on a timely and sufficient basis detailing the results and status of improvements to comply with the consent orders, which will continue to require significant investments to meet regulatory expectations; and the heightened scrutiny and expectations generally from regulators, and the severity of the remedies that may be sought by regulators; and • the various risks faced by Citi as a result of its presence in the emerging markets, including, among others, those resulting from the impact of policies and actions from the U.S. administration; limitations or unavailability of hedges on foreign investments; foreign currency volatility and devaluations; central bank interest rate and other monetary policies; unemployment, recessions or weak or slowing economic growth; elevated inflation and hyperinflation; foreign exchange controls; macroeconomic, geopolitical and domestic political challenges, uncertainties and volatility; cyberattacks; restrictions arising from retaliatory laws and regulations; sanctions or asset freezes; sovereign debt volatility; fluctuations in commodity prices; regulatory changes, including potential conflicts among regulations with other jurisdictions where Citi does business; limitations on foreign investment; sociopolitical instability; nationalization or loss of licenses; closure of branches or subsidiaries; any substantial liquidation, expropriation or other deconsolidation event related to Citi’s remaining consumer banking divestitures or other legacy businesses; and the need to record CTA and other losses, as well as additional reserves for expected losses for credit exposures based on the transfer risk associated with exposures outside the U.S. 98 Any forward-looking statements made by or on behalf of Citigroup speak only as to the date they are made, and Citi does not undertake to update forward-looking statements to reflect the impact of circumstances or events that arise after the date that the forward-looking statements were made.",
+      "categories": [
+        "credit_risk",
+        "market_risk",
+        "macro_signals",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "default",
+        "impairment",
+        "var",
+        "volatility",
+        "fair value",
+        "hedging",
+        "net interest",
+        "spread",
+        "recession",
+        "inflation",
+        "unemployment",
+        "macroeconomic",
+        "geopolitical",
+        "uncertainty",
+        "tariff",
+        "trade",
+        "central bank",
+        "fiscal",
+        "liquidity",
+        "funding",
+        "deposit",
+        "stress test",
+        "outflow",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8407,
+      "score": 0.0
+    },
+    {
+      "sentence": "100 FINANCIAL STATEMENTS AND NOTES—TABLE OF CONTENTS 101 CONSOLIDATED FINANCIAL STATEMENTS 102 (1) Effective January 1, 2025, certain transaction processing fees paid by Citi, primarily to credit card networks, which were previously presented within Other operating expenses, are presented as contra-revenue within Commissions and fees reported in Non-interest revenue .",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.946,
+      "score": 0.0
+    },
+    {
+      "sentence": "The accompanying unaudited Consolidated Financial Statements should be read in conjunction with the Consolidated Financial Statements and related notes included within Citigroup’s Annual Report on Form 10-K for the year ended December 31, 2024 (2024 Form 10-K) and Citigroup’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2025 (First Quarter of 2025 Form 10-Q).",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9448,
+      "score": 0.0
+    },
+    {
+      "sentence": "Certain financial information that is usually included in annual financial statements prepared in accordance with U.S. generally accepted accounting principles (GAAP), but is not required for interim reporting purposes, has been condensed or omitted.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6331,
+      "score": 0.0
+    },
+    {
+      "sentence": "Cash equivalents are defined as those amounts included in Cash and due from banks and predominately all of Deposits with banks .",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9332,
+      "score": 0.0
+    },
+    {
+      "sentence": "Cash flows from risk management activities are classified in the same category as the related assets and liabilities.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9521,
+      "score": 0.0
+    },
+    {
+      "sentence": "Amounts included in Cash and due from banks and Deposits with banks approximate fair value.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9468,
+      "score": 0.0
+    },
+    {
+      "sentence": "The eight categories include state and local income taxes, net of federal income tax effect; foreign tax effects; enactment of new tax laws; enactment of new tax credits; effect of cross-border tax laws; valuation allowances; nontaxable items and nondeductible items; and changes in unrecognized tax benefits.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9383,
+      "score": 0.0
+    },
+    {
+      "sentence": "The standard is effective for fiscal years beginning after December 15, 2024.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "fiscal"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9484,
+      "score": 0.0
+    },
+    {
+      "sentence": "2025-03, Business Combinations (Topic 805) and Consolidation (Topic 810): Determining the Accounting Acquirer in the Acquisition of a Variable Interest Entity , intended to clarify the guidance for identifying the accounting acquirer when the legal acquiree is a variable interest entity that meets the definition of a business.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9488,
+      "score": 0.0
+    },
+    {
+      "sentence": "The ASU will be effective for fiscal years beginning after December 15, 2026, and interim periods within those fiscal years.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "fiscal"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9255,
+      "score": 0.0
+    },
+    {
+      "sentence": "2024-03, Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40) , to improve the disclosures of expenses by requiring public business entities to provide further disaggregation of relevant expense captions (i.e., employee compensation, depreciation, intangible asset amortization) in a separate note to the financial statements, a qualitative description of the amounts remaining in relevant expense captions that are not separately disaggregated quantitatively, and the total amount of selling expenses and, in an annual reporting period, an entity’s definition of selling expenses.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.934,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citi’s Income (loss) from discontinued operations, net of taxes , as well as cash flows from Discontinued operations , were not material for the periods presented.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.6608,
+      "score": -0.6607874631881714
+    },
+    {
+      "sentence": "In the second quarter of 2025, the following transactions were identified as significant disposals that are recorded within All Other —Legacy Franchises, including the assets and liabilities that were reclassified to held-for-sale (HFS) within Other assets and Other liabilities on the Consolidated Balance Sheet and the Income (loss) before taxes (benefits) related to each business.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9277,
+      "score": 0.0
+    },
+    {
+      "sentence": "As of June 30, 2025, Citi reported the business as HFS, resulting in a pretax loss on sale of approximately $ 186 million recorded in Other revenue ($ 157 million after-tax), subject to closing adjustments.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9702,
+      "score": -0.9702275991439819
+    },
+    {
+      "sentence": "Income before taxes, excluding the pretax loss on sale, for the Poland consumer banking business is as follows: The following assets and liabilities related to the Poland consumer banking business were reclassified to HFS within Other assets and Other liabilities , respectively, on the Consolidated Balance Sheet at June 30, 2025: (1) Includes liquidity resources currently composed of approximately $ 4.6 billion of Deposits with bank s. This may transfer as cash and securities at time of closing and is primarily recorded in Markets .",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "liquidity",
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9503,
+      "score": 0.0
+    },
+    {
+      "sentence": "REPORTABLE BUSINESS SEGMENTS AND ALL OTHER The reportable business segments (segments) and All Other reflect how the CEO, who is the chief operating decision maker (CODM), manages the Company, including allocating resources and measuring performance.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9494,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citi is organized into five reportable business segments: Services , Markets , Banking , Wealth and U.S.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9472,
+      "score": 0.0
+    },
+    {
+      "sentence": "Revenues and expenses from transactions with other segments and All Other are treated as transactions with external parties for purposes of segment disclosures, while funding charges paid by segments and funding credits received by Corporate Treasury within All Other are included in net interest income.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "net interest",
+        "funding"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.953,
+      "score": 0.0
+    },
+    {
+      "sentence": "The accounting policies of these segments and All Other are the same as those disclosed in Note 1 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. 113 The following tables present certain information regarding the Company’s continuing operations by reportable business segment and All Other on a managed basis that excludes divestiture-related impacts.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9501,
+      "score": 0.0
+    },
+    {
+      "sentence": "The CODM uses Income (loss) from continuing operations as the performance measure, to evaluate the results of each reportable business segment and All Other by comparing to and monitoring against budget and prior-year results.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8789,
+      "score": 0.0
+    },
+    {
+      "sentence": "114 (1) Effective January 1, 2025, certain transaction processing fees paid by Citi, primarily to credit card networks, reported within USPB , Services , Wealth and All Other —Legacy Franchises (Banamex and Asia Consumer), which were previously presented within Other operating expenses, are presented as contra-revenue within Commissions and fees reported in Non-interest revenue .",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9508,
+      "score": 0.0
+    },
+    {
+      "sentence": "Adjustments are included in Legacy Franchises within All Other and are reflected in the reconciliations above to arrive at Citi’s reported results in the Consolidated Statement of Income.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9416,
+      "score": 0.0
+    },
+    {
+      "sentence": "115 The following table presents a reconciliation of total Citigroup income from continuing operations as reported: (1) The three months ended June 30, 2025 includes (i) an approximate $ 186 million loss recorded in revenue (approximately $ 157 million after tax) related to the announced sale of the Poland consumer banking business; and (ii) approximately $ 37 million in operating expenses (approximately $ 26 million after-tax), primarily related to separation costs in Mexico.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9511,
+      "score": -0.9511339068412781
+    },
+    {
+      "sentence": "For additional information, see Citi’s Quarterly Report on Form 10-Q for the period ended June 30, 2024.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9455,
+      "score": 0.0
+    },
+    {
+      "sentence": "For additional information, see Citi’s Quarterly Report on Form 10-Q for the period ended June 30, 2024.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9455,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) Reportable business segment results are presented on a managed basis that excludes divestiture-related impacts related to (i) Citi’s divestitures of its Asia Consumer businesses and (ii) the planned IPO of Banamex, within All Other —Legacy Franchises.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9385,
+      "score": 0.0
+    },
+    {
+      "sentence": "Adjustments are included in Legacy Franchises within All Other and are reflected in the reconciliations above to arrive at Citi’s reported results in the Consolidated Statement of Income.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9416,
+      "score": 0.0
+    },
+    {
+      "sentence": "INTEREST INCOME AND EXPENSE Interest income and Interest expense consisted of the following: (1) Interest expense on Trading account liabilities of Services , Markets and Banking is reported as a reduction of Interest income .",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6646,
+      "score": 0.0
+    },
+    {
+      "sentence": "Interest income and Interest expense on cash collateral positions are reported in interest on Trading account assets and Trading account liabilities , respectively.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9038,
+      "score": 0.0
+    },
+    {
+      "sentence": "COMMISSIONS AND FEES; ADMINISTRATION AND OTHER FIDUCIARY FEES Commissions and Fees The primary components of Commissions and fees revenue are investment banking fees, brokerage commissions, credit card and bank card income, deposit-related fees and transactional service fees.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9363,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company recognized $ 45 million and $ 91 million of revenue related to variable consideration for the three and six months ended June 30, 2025, and $ 44 million and $ 86 million for the three and six months ended June 30, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8481,
+      "score": 0.0
+    },
+    {
+      "sentence": "Amounts reported in Commissions and fees accounted for under other guidance primarily include card-related loan fees, card reward programs and certain partner payments, corporate finance fees, insurance premiums and loan servicing fees.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9346,
+      "score": 0.0
+    },
+    {
+      "sentence": "Principal transactions include CVA (credit valuation adjustments) and FVA (funding valuation adjustments) on over-the-counter derivatives, and gains (losses) on certain economic hedges on loans in Services , Markets and Banking .",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "derivatives",
+        "funding"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8991,
+      "score": 0.0
+    },
+    {
+      "sentence": "Also includes spot and forward trading of currencies and exchange-traded and over-the-counter (OTC) currency options, options on fixed income securities, interest rate swaps, currency swaps, swap options, caps and floors, financial futures, OTC options and forward contracts on fixed income securities.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9495,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Includes revenues from common, preferred and convertible preferred stock, convertible corporate debt, equity-linked notes and exchange-traded and OTC equity options and warrants.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9345,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) Primarily includes revenues from crude oil, refined oil products, natural gas, metals and other commodities trades.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9432,
+      "score": 0.0
+    },
+    {
+      "sentence": "(6) Includes revenues from corporate debt, secondary trading loans, mortgage securities, single name and index credit default swaps, and structured credit products.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9387,
+      "score": 0.0
+    },
+    {
+      "sentence": "Service cost is reported in Compensation and benefits expenses and all other components of the net periodic benefit cost are reported in Other operating expenses in the Consolidated Statement of Income.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9277,
+      "score": 0.0
+    },
+    {
+      "sentence": "RESTRUCTURING As previously disclosed, Citi is pursuing various initiatives to simplify the Company and further align its organizational structure with its business strategy.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.8037,
+      "score": 0.8036852478981018
+    },
+    {
+      "sentence": "EARNINGS PER SHARE The following table reconciles the income and share data used in the basic and diluted earnings per share (EPS) computations: (1) Other relevant items in the second quarter of 2025 include issuance costs of $ 8 million related to the redemption of preferred stock Series P. The issuance costs were reclassified from Additional paid-in capital to Retained earnings upon redemption of the preferred stock.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9269,
+      "score": 0.0
+    },
+    {
+      "sentence": "SECURITIES BORROWED, LOANED AND SUBJECT TO REPURCHASE AGREEMENTS For additional information on the Company’s resale and repurchase agreements and securities borrowing and lending agreements, see Note 12 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Securities borrowed and purchased under agreements to resell , at their respective carrying values, consisted of the following: Securities loaned and sold under agreements to repurchase , at their respective carrying values, consisted of the following: (1) The above tables do not include securities-for-securities lending transactions of $ 3.9 billion and $ 5.2 billion at June 30, 2025 and December 31, 2024, respectively, where the Company acts as lender and receives securities that can be sold or pledged as collateral.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9383,
+      "score": 0.0
+    },
+    {
+      "sentence": "In these transactions, the Company recognizes the securities received at fair value within Other assets and the obligation to return those securities as a liability within Brokerage payables .",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9318,
+      "score": 0.0
+    },
+    {
+      "sentence": "123 The following tables present the gross and net resale and repurchase agreements and securities borrowing and lending agreements and the related offsetting amounts permitted under ASC 210-20-45.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9461,
+      "score": 0.0
+    },
+    {
+      "sentence": "The tables also include amounts related to financial instruments that are not permitted to be offset under ASC 210-20-45, but would be eligible for offsetting to the extent that an event of default has occurred and a legal opinion supporting enforceability of the offsetting rights has been obtained.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9389,
+      "score": 0.0
+    },
+    {
+      "sentence": "Accrued interest receivable on Securities purchased under agreements to resell (reverse repos) is presented in Other assets and accrued interest payable on Securities sold under agreements to repurchase (repos) is presented in Other liabilities .",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9458,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Includes financial instruments subject to enforceable master netting agreements that are not permitted to be offset under ASC 210-20-45, but would be eligible for offsetting to the extent that an event of default has occurred and a legal opinion supporting enforceability of the offsetting right has been obtained.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9318,
+      "score": 0.0
+    },
+    {
+      "sentence": "INVESTMENTS For additional information regarding Citi’s investment portfolios, including evaluating investments for impairment, see Note 14 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9478,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Includes $ 32 million and $ 23 million of investments in funds for which the fair values are estimated using the net asset value of the Company’s ownership interest in the funds at June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9481,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Impairment losses and adjustments to the carrying value as a result of observable price changes are recognized in earnings.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.6652,
+      "score": -0.665166437625885
+    },
+    {
+      "sentence": "(5) Represents shares issued by the Federal Reserve Bank, Federal Home Loan Banks and certain exchanges of which Citigroup is a member.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "federal reserve"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9539,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company does not recognize an allowance for credit losses on accrued interest receivable for AFS and HTM debt securities, consistent with its non-accrual policy, which results in timely write-off of accrued interest.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.792,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table presents interest and dividend income on investments: The following table presents realized gains and losses on the sales of investments, which exclude impairment losses: 127 Debt Securities Available-for-Sale The amortized cost and fair value of AFS debt securities were as follows: (1) The Company invests in mortgage- and asset-backed securities, which are typically issued by VIEs through securitization transactions.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9149,
+      "score": 0.0
+    },
+    {
+      "sentence": "128 The following table presents the fair value of AFS debt securities that have been in an unrealized loss position: 129 The following table presents the amortized cost and fair value of AFS debt securities by contractual maturity dates: (1) Includes mortgage-backed securities of U.S. government-sponsored agencies.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9057,
+      "score": 0.0
+    },
+    {
+      "sentence": "130 Debt Securities Held-to-Maturity The carrying value and fair value of debt securities HTM were as follows: (1) Amortized cost is reported net of ACL of $ 136 million and $ 137 million at June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9418,
+      "score": 0.0
+    },
+    {
+      "sentence": "131 The following table presents the carrying value and fair value of HTM debt securities by contractual maturity dates: (1) Amortized cost is reported net of ACL of $ 136 million at June 30, 2025.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9476,
+      "score": 0.0
+    },
+    {
+      "sentence": "HTM Debt Securities Delinquency and Non-Accrual Details Citi did not have any HTM debt securities that were delinquent or on non-accrual status at June 30, 2025 and December 31, 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "delinquency"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8784,
+      "score": 0.0
+    },
+    {
+      "sentence": "132 Evaluating Investments for Impairment—AFS Debt Securities The Company conducts periodic reviews of all AFS debt securities with unrealized losses to evaluate whether the impairment resulted from expected credit losses or from other factors and to evaluate the Company’s intent to sell such securities.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8986,
+      "score": 0.0
+    },
+    {
+      "sentence": "For more information on evaluating investments for impairment, see Note 14 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9322,
+      "score": 0.0
+    },
+    {
+      "sentence": "Recognition and Measurement of Impairment The following table presents total impairment on AFS investments recognized in earnings: Allowance for Credit Losses on AFS Debt Securities The allowance for credit losses on AFS debt securities held that the Company does not intend to sell nor will likely be required to sell was immaterial as of June 30, 2025 and December 31, 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance",
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8185,
+      "score": 0.0
+    },
+    {
+      "sentence": "Non-Marketable Equity Securities Not Carried at Fair Value Non-marketable equity securities are required to be measured at fair value with changes in fair value recognized in earnings unless (i) the measurement alternative is elected or (ii) the investment represents Federal Reserve Bank and Federal Home Loan Bank stock or certain exchange seats that continue to be carried at cost.",
+      "categories": [
+        "market_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "fair value",
+        "federal reserve"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9373,
+      "score": 0.0
+    },
+    {
+      "sentence": "The carrying value of the equity security is adjusted to fair value on the date of an observed transaction.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9502,
+      "score": 0.0
+    },
+    {
+      "sentence": "Fair value may differ from the observed transaction price due to a number of factors, including marketability adjustments and differences in rights and obligations when the observed transaction is not for the identical investment held by Citi.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.5646,
+      "score": 0.0
+    },
+    {
+      "sentence": "Equity securities under the measurement alternative, which are composed of private equity investments, are also assessed for impairment.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.5194,
+      "score": 0.0
+    },
+    {
+      "sentence": "For details on impairment indicators that are considered, see Note 14 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9377,
+      "score": 0.0
+    },
+    {
+      "sentence": "When the qualitative assessment indicates that the equity security is impaired, its fair value is determined.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6212,
+      "score": 0.0
+    },
+    {
+      "sentence": "If the fair value of the investment is less than its carrying value, the investment is written down to fair value through earnings.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7746,
+      "score": 0.0
+    },
+    {
+      "sentence": "Below is the carrying value of non-marketable equity securities measured using the measurement alternative at June 30, 2025 and December 31, 2024 : Below are amounts recognized in earnings and life-to-date amounts for non-marketable equity securities measured using the measurement alternative: (1) See Note 23 for additional information on these nonrecurring fair value measurements.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9466,
+      "score": 0.0
+    },
+    {
+      "sentence": "A similar impairment analysis is performed for non-marketable equity securities carried at cost.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9335,
+      "score": 0.0
+    },
+    {
+      "sentence": "For the three months ended June 30, 2025 and 2024, there was no impairment loss recognized in earnings for non-marketable equity securities carried at cost.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7173,
+      "score": 0.0
+    },
+    {
+      "sentence": "These categories are classified primarily according to the segment that manages the loans (or, if applicable, All Other —Legacy Franchises), in addition to the nature of the obligor, with corporate loans generally made for corporate, institutional and public sector clients and consumer loans to retail and small business customers.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(7) Represents fair value hedge basis adjustments related to portfolio-layer method hedges of mortgage and real estate loans, which are not allocated to individual loans in the portfolio.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9382,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company sold and/or reclassified to held-for-sale $ 0.9 billion and $ 1.9 billion of corporate loans during the three and six months ended June 30, 2025, and $ 1.5 billion and $ 2.3 billion of corporate loans during the three and six months ended June 30, 2024, respectively.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9212,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company did not have significant purchases of corporate loans classified as held-for-investment for the three and six months ended June 30, 2025 or 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.906,
+      "score": 0.0
+    },
+    {
+      "sentence": "134 Corporate Loan Delinquencies and Non-Accrual Details at June 30, 2025 Corporate Loan Delinquencies and Non-Accrual Details at December 31, 2024 (1) Corporate loans that are 90 days or more past due are generally classified as non-accrual.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "past due",
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8817,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Non-accrual loans generally include those loans that are 90 days or more past due or those loans for which Citi believes, based on actual experience and a forward-looking assessment of the collectibility of the loan in full, that the payment of interest and/or principal is doubtful.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.917,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Loans less than 30 days past due are presented as current.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9395,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) The Total loans column includes loans at fair value, which are not included in the various delinquency columns and, therefore, the tables’ total rows will not cross-foot.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "delinquency",
+        "var",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9273,
+      "score": 0.0
+    },
+    {
+      "sentence": "N/A Not applicable 135 Corporate Loan Credit Quality Indicators 136 (1) Recorded investment in a loan includes net deferred loan fees and costs, unamortized premium or discount, less any direct write-downs.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit quality"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9403,
+      "score": 0.0
+    },
+    {
+      "sentence": "(6) Loans at fair value include loans to commercial and industrial, financial institutions, mortgage and real estate and other.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9519,
+      "score": 0.0
+    },
+    {
+      "sentence": "137 Corporate Gross Credit Losses The table below details gross credit losses recognized during the six months ended June 30, 2025, by year of loan origination: The table below details gross credit losses recognized during the six months ended June 30, 2024, by year of loan origination: (1) Other includes installment and other, lease financing and loans to government and official institutions.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.5278,
+      "score": -0.5277508497238159
+    },
+    {
+      "sentence": "Citi defines a corporate loan modification to a borrower experiencing financial difficulty as a modification of a loan classified as substandard or worse at the time of modification.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified",
+        "substandard"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.5555,
+      "score": -0.5555227398872375
+    },
+    {
+      "sentence": "(1) The above table reflects activity for loans outstanding as of the end of the reporting period.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9279,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) The allowance for corporate loans, including modified loans, is based on the borrower’s overall financial performance.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9373,
+      "score": 0.0
+    },
+    {
+      "sentence": "Charge-offs for amounts deemed uncollectible may be recorded at the time of the modification or may have already been recorded in prior periods such that no charge-off is required at the time of modification.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "charge-off"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.867,
+      "score": 0.0
+    },
+    {
+      "sentence": "It includes loans that were modified during the 12 months ended June 30, 2025 and December 31, 2024: (1) Corporate loans are generally not modified as a result of their delinquency status; rather, they are modified because of events that have impacted the overall financial performance of the borrower.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "delinquency"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7251,
+      "score": 0.0
+    },
+    {
+      "sentence": "Corporate loans, if past due, are re-aged to current status upon modification.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9448,
+      "score": 0.0
+    },
+    {
+      "sentence": "Defaults of Modified Corporate Loans No modified corporate loans to borrowers experiencing financial difficulty defaulted during the three months ended June 30, 2025 and 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.913,
+      "score": -0.9129694700241089
+    },
+    {
+      "sentence": "Default is defined as 60 days past due, except for classifiably managed commercial banking loans, where default is defined as 90 days past due.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default",
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.868,
+      "score": 0.0
+    },
+    {
+      "sentence": "For a modified corporate loan that is not collateral dependent, expected default rates are considered in the loan’s individually assessed ACL.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9141,
+      "score": 0.0
+    },
+    {
+      "sentence": "Credit quality indicators that are actively monitored include delinquency status, consumer credit scores under Fair Isaac Corporation (FICO) and loan-to-value (LTV) ratios, each as discussed in more detail below.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "delinquency",
+        "credit quality"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9315,
+      "score": 0.0
+    },
+    {
+      "sentence": "For Citi’s policies related to consumer loans, including non-accrual and charge-off policies, see Note 1 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. 140 The following tables provide Citi’s consumer loans by type: Consumer Loans, Delinquencies and Non-Accrual Status at June 30, 2025 Consumer Loans, Delinquencies and Non-Accrual Status at December 31, 2024 (1) Loans less than 30 days past due are presented as current.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "charge-off",
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9192,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Includes $ 27 million and $ 281 million at June 30, 2025 and December 31, 2024, respectively, of residential first mortgages recorded at fair value.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9432,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Consists of loans that are guaranteed by U.S. government-sponsored agencies that are 30–89 days past due of $ 0.1 billion and $ 0.1 billion and 90 days or more past due of $ 0.1 billion and $ 0.1 billion at June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "past due"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9253,
+      "score": 0.0
+    },
+    {
+      "sentence": "(10) Represents fair value hedge basis adjustments related to portfolio-layer method hedges of mortgage and real estate loans, which are not allocated to individual loans in the portfolio.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9399,
+      "score": 0.0
+    },
+    {
+      "sentence": "Sales and Purchases of Consumer Loans During the three and six months ended June 30, 2025, the Company sold and/or reclassified to held-for-sale (HFS) $ 10 million and $ 42 million of consumer loans, respectively.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9099,
+      "score": 0.0
+    },
+    {
+      "sentence": "During the three and six months ended June 30, 2024, the Company sold and/or reclassified to held-for-sale less than $ 1 million and $ 59 million of consumer loans, respectively.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8477,
+      "score": 0.0
+    },
+    {
+      "sentence": "Accordingly, there were immaterial releases of the associated allowance for credit losses for the three and six months ended June 30, 2025 and 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8451,
+      "score": 0.0
+    },
+    {
+      "sentence": "The transfers exclude certain consumer mortgage loans for which Citi has elected the fair value option (see Note 24), which do not have an associated allowance for credit losses.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9366,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company did not have significant purchases of consumer loans classified as held-for-investment for the three and six months ended June 30, 2025 or 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.892,
+      "score": 0.0
+    },
+    {
+      "sentence": "With respect to Citi’s consumer loan portfolio outside of the U.S. as of June 30, 2025 and December 31, 2024 ($ 77.7 billion and $ 72.5 billion, respectively), various country-specific or regional credit risk metrics and acquisition and behavior scoring models are leveraged as one of the factors to evaluate the credit quality of customers (see “Consumer Loans and Ratios Outside of North America” below).",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "credit quality",
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8701,
+      "score": 0.0
+    },
+    {
+      "sentence": "As a result, details of relevant credit quality indicators for those loans are not comparable to the below FICO score distribution for the U.S. portfolio.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit quality"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8987,
+      "score": 0.0
+    },
+    {
+      "sentence": "144 Consumer Gross Credit Losses The following tables provide details on gross credit losses recognized during the six months ended June 30, 2025 and 2024, by year of loan origination: 145 Loan-to-Value (LTV) Ratios—U.S.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.7498,
+      "score": -0.749751627445221
+    },
+    {
+      "sentence": "(1) Residential first mortgages with no LTV information available include government-guaranteed loans that do not require LTV information for credit risk assessment and fair value loans.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9451,
+      "score": 0.0
+    },
+    {
+      "sentence": "148 Types of Consumer Loan Modifications and Their Financial Effect The following tables provide details on permanent consumer loan modifications granted during the three and six months ended June 30, 2025 and 2024 to borrowers experiencing financial difficulty by type of modification granted and the financial effect of those modifications: (1) The above tables reflect activity for loans outstanding as of the end of the reporting period.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9215,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) For major consumer portfolios, the ACLL is based on macroeconomic-sensitive models that rely on historical performance and macroeconomic scenarios to forecast expected credit losses.",
+      "categories": [
+        "credit_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "credit loss",
+        "macroeconomic"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9123,
+      "score": 0.0
+    },
+    {
+      "sentence": "Modifications of consumer loans impact expected credit losses by affecting the likelihood of default.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6532,
+      "score": 0.0
+    },
+    {
+      "sentence": "149 (1) The above tables reflect activity for loans outstanding as of the end of the reporting period.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.927,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) For major consumer portfolios, the ACLL is based on macroeconomic-sensitive models that rely on historical performance and macroeconomic scenarios to forecast expected credit losses.",
+      "categories": [
+        "credit_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "credit loss",
+        "macroeconomic"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9123,
+      "score": 0.0
+    },
+    {
+      "sentence": "Modifications of consumer loans impact expected credit losses by affecting the likelihood of default.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6532,
+      "score": 0.0
+    },
+    {
+      "sentence": "150 Performance of Modified Consumer Loans The following tables present the delinquencies and gross credit losses of permanently modified consumer loans to borrowers experiencing financial difficulty, including loans that were modified during the 12 months ended June 30, 2025 and the year ended December 31, 2024: (1) North America includes the U.S., Canada and Puerto Rico.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.4901,
+      "score": 0.0
+    },
+    {
+      "sentence": "151 Defaults of Modified Consumer Loans The following tables present default activity for permanently modified consumer loans to borrowers experiencing financial difficulty by type of modification granted, including loans that were modified and subsequently defaulted during the three and six months ended June 30, 2025 and 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6821,
+      "score": 0.0
+    },
+    {
+      "sentence": "Default is defined as 60 days past due: (1) The above tables reflect activity for loans outstanding as of the end of the reporting period.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "default",
+        "past due",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8982,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Modified residential first mortgages that default are typically liquidated through foreclosure or a similar type of liquidation.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8338,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Modified credit card loans that default continue to be charged off in accordance with Citi’s consumer charge-off policy.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "charge-off",
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9373,
+      "score": 0.0
+    },
+    {
+      "sentence": "152 (1) The above tables reflect activity for loans outstanding as of the end of the reporting period.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9285,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Modified residential first mortgages that default are typically liquidated through foreclosure or a similar type of liquidation.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8338,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Modified credit card loans that default continue to be charged off in accordance with Citi’s consumer charge-off policy.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "charge-off",
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9373,
+      "score": 0.0
+    },
+    {
+      "sentence": "ALLOWANCE FOR CREDIT LOSSES (1) Represents additional credit loss reserves for unfunded lending commitments and letters of credit recorded in Other liabilities on the Consolidated Balance Sheet.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8605,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) See additional details on the Allowance for credit losses on other assets below.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9123,
+      "score": 0.0
+    },
+    {
+      "sentence": "154 Allowance for Credit Losses on Loans (ACLL) and End-of-Period Loans 155 2Q25 Changes in the ACL The total allowance for credit losses on loans, leases, unfunded lending commitments, other assets and HTM debt securities (in aggregate, total ACL) as of June 30, 2025 was $ 23,679 million, an increase of $ 1.5 billion from $ 22,177 million at December 31, 2024, primarily driven by a deterioration in the macroeconomic outlook and FX translation on the ACL on Other assets related to reserves on transfer risk associated with Russia.",
+      "categories": [
+        "credit_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance",
+        "economic outlook",
+        "macroeconomic"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.7114,
+      "score": 0.7114397287368774
+    },
+    {
+      "sentence": "Consumer ACLL Citi’s total consumer allowance for credit losses on loans (ACLL) as of June 30, 2025 was $ 16,100 million, an increase of $ 82 million from $ 16,018 million at December 31, 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9431,
+      "score": 0.9430651664733887
+    },
+    {
+      "sentence": "ACLUC As of June 30, 2025, Citi’s total allowance for unfunded lending commitments (ACLUC), included in Other liabilities , was $ 1,721 million, an increase of $ 120 million from $ 1,601 million at December 31, 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "allowance"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9423,
+      "score": 0.942269504070282
+    },
+    {
+      "sentence": "The increase was largely driven by uncertainty and a deterioration in the macroeconomic outlook.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "economic outlook",
+        "macroeconomic",
+        "uncertainty"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.6831,
+      "score": -0.6830751299858093
+    },
+    {
+      "sentence": "156 Allowance for Credit Losses on Other Assets (1) Primarily ACL related to transfer risk associated with exposures outside the U.S. 157 (1) Primarily ACL related to transfer risk associated with exposures outside the U.S. For the ACL on AFS debt securities, see Note 13.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7983,
+      "score": 0.0
+    },
+    {
+      "sentence": "GOODWILL AND INTANGIBLE ASSETS Goodwill The changes in Goodwill were as follows: Citi tests for goodwill impairment annually as of October 1 (the annual test) and conducts interim assessments between the annual test if an event occurs or circumstances change that would more-likely-than-not reduce the fair value of a reporting unit below its carrying amount.",
+      "categories": [
+        "credit_risk",
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.5358,
+      "score": -0.5357761979103088
+    },
+    {
+      "sentence": "For additional information regarding Citi’s goodwill impairment testing process, see Notes 1 and 17 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Unanticipated declines in business performance, increases in credit losses, increases in capital requirements and adverse regulatory or legislative changes, and deterioration in economic or market conditions, as well as circumstances related to Citi’s strategic refresh, are factors that could result in a material impairment loss to earnings in a future period related to some portion of the associated goodwill.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "impairment"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9325,
+      "score": -0.9325235486030579
+    },
+    {
+      "sentence": "Reporting units used for goodwill assessment at the Citigroup consolidated level may differ from the reporting units of its subsidiaries.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9002,
+      "score": 0.0
+    },
+    {
+      "sentence": "DEPOSITS Deposits consisted of the following: (1) For information on time deposits that met or exceeded the insured limit at December 31, 2024, see Note 18 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. For additional information on Citi’s deposits, see Citi’s 2024 Form 10-K. FDIC Special Assessment Citi recorded a $ 20 million benefit and a $ 34 million charge in Other operating expenses for the three months ended June 30, 2025 and 2024, respectively, related to the FDIC’s final rule implementing a special assessment to recover the uninsured deposit losses from the failures of Silicon Valley Bank and Signature Bank.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.8089,
+      "score": -0.808856189250946
+    },
+    {
+      "sentence": "DEBT For additional information regarding Citi’s short-term borrowings and long-term debt, see Note 19 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Short-Term Borrowings (1) Represents Citibank entities as well as other bank entities.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9524,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Includes borrowings from Federal Home Loan Banks and other market participants.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9286,
+      "score": 0.0
+    },
+    {
+      "sentence": "CHANGES IN ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) (AOCI) Changes in each component of Citigroup’s Accumulated other comprehensive income (loss) were as follows: (1) Reflects the after-tax valuation of Citi’s fair value option liabilities.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9266,
+      "score": 0.0
+    },
+    {
+      "sentence": "Amounts recorded in the CTA component of AOCI remain in AOCI until the sale or substantial liquidation of the foreign entity, at which point such amounts related to the foreign entity are reclassified into earnings.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9388,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) Reflects the change in the liability for future policyholder benefits for certain long-duration life-contingent annuity contracts that are issued by a regulated Citi insurance subsidiary within Banamex and reported within Legacy Franchises.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "duration",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8986,
+      "score": 0.0
+    },
+    {
+      "sentence": "The amount reflects the change in the liability after discounting using an upper-medium-grade fixed income instrument yield that reflects the duration characteristics of the liability.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "duration"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9229,
+      "score": 0.0
+    },
+    {
+      "sentence": "164 The Company recognized pretax (gains) losses related to amounts in AOCI reclassified to the Consolidated Statement of Income as follows: (1) The pretax amount is reclassified to Realized gains (losses) on sales of investments, net and Gross impairment losses in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "classified"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.4873,
+      "score": -0.48731786012649536
+    },
+    {
+      "sentence": "(4) The pretax amount is reclassified to Other revenue in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9506,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9523,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9523,
+      "score": 0.0
+    },
+    {
+      "sentence": "(6) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(7) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9524,
+      "score": 0.0
+    },
+    {
+      "sentence": "(8) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(9) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9524,
+      "score": 0.0
+    },
+    {
+      "sentence": "(10) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(11) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "(12) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9525,
+      "score": 0.0
+    },
+    {
+      "sentence": "166 (13) Issued as depositary shares, each representing a 1/25 th interest in a share of the corresponding series of non-cumulative perpetual preferred stock.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.952,
+      "score": 0.0
+    },
+    {
+      "sentence": "SECURITIZATIONS AND VARIABLE INTEREST ENTITIES For additional information regarding Citi’s use of special purpose entities (SPEs) and variable interest entities (VIEs), see Note 23 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Citigroup’s involvement with consolidated and unconsolidated VIEs with which the Company holds significant variable interests or has continuing involvement through servicing a majority of the assets in a VIE is presented below: (1) The definition of maximum exposure to loss is included in the text that follows this table.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9434,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) A significant unconsolidated VIE is an entity in which the Company has any variable interest or continuing involvement considered to be significant, regardless of the likelihood of loss.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.939,
+      "score": 0.0
+    },
+    {
+      "sentence": "As of June 30, 2025 and December 31, 2024, the Company’s maximum exposure to loss related to these transactions was $ 8.7 billion and $ 8.1 billion, respectively (see Note 14 and Note 23 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K); • certain VIEs structured by third parties in which the Company holds securities in inventory, as these investments are made on arm’s-length terms; • certain positions in mortgage- and asset-backed securities held by the Company, which are classified as Trading account assets , Investments or Loans , in which the Company has no other involvement with the related securitization entity deemed to be significant (see Notes 13, 14 and 23); • certain representations and warranties exposures in Citigroup residential mortgage securitizations, in which the original mortgage loan balances are no longer outstanding; and • VIEs such as preferred securities trusts used in connection with the Company’s funding activities.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "funding"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9427,
+      "score": 0.0
+    },
+    {
+      "sentence": "The cash flows from these assets are the only source used to pay down the associated liabilities, which are non-recourse to Citi’s general assets.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9406,
+      "score": 0.0
+    },
+    {
+      "sentence": "The carrying amount may represent the amortized cost or the current fair value of the assets depending on the classification of the asset (e.g., loan or security) and the associated accounting model ascribed to that classification.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9438,
+      "score": 0.0
+    },
+    {
+      "sentence": "In most cases, the asset balances represent an amortized cost basis without regard to impairments, unless fair value information is readily available to the Company.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.937,
+      "score": 0.0
+    },
+    {
+      "sentence": "The carrying amount may also be adjusted for increases or declines in fair value or any impairment in value recognized in earnings.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6044,
+      "score": 0.0
+    },
+    {
+      "sentence": "The maximum exposure of unfunded positions represents the remaining undrawn committed amount, including liquidity and credit facilities provided by the Company or the notional amount of a derivative instrument considered to be a variable interest.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "var",
+        "liquidity"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.941,
+      "score": 0.0
+    },
+    {
+      "sentence": "In certain transactions, the Company has entered into derivative instruments or other arrangements that are not considered variable interests in the VIE (e.g., interest rate swaps, cross-currency swaps or where the Company is the purchaser of credit protection under a credit default swap or total return swap where the Company pays the total return on certain assets to the SPE).",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "default",
+        "var"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9416,
+      "score": 0.0
+    },
+    {
+      "sentence": "170 Funding Commitments for Significant Unconsolidated VIEs—Liquidity Facilities and Loan Commitments The following table presents the notional amount of liquidity facilities and loan commitments that are classified as funding commitments in the VIE tables above: Significant Interests in Unconsolidated VIEs—Balance Sheet Classification The following table presents the carrying amounts and classification of significant variable interests in unconsolidated VIEs: Credit Card Securitizations The Company’s primary credit card securitization activity is through two trusts—Citibank Credit Card Master Trust and Citibank Omni Trust.",
+      "categories": [
+        "credit_risk",
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "var",
+        "liquidity",
+        "funding"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9559,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table reflects amounts related to the Company’s securitized credit card receivables: The following table summarizes selected cash flow information related to Citigroup’s credit card securitizations: Master Trust Liabilities (at Par Value) The weighted average maturity of the third-party term notes issued by the Master Trust was 3.3 years as of June 30, 2025 and 3.6 years as of December 31, 2024.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9338,
+      "score": 0.0
+    },
+    {
+      "sentence": "171 Mortgage Securitizations The following tables summarize selected cash flow information and retained interests related to Citigroup mortgage securitizations: Note: Excludes re-securitization transactions.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9185,
+      "score": 0.0
+    },
+    {
+      "sentence": "Mortgage Servicing Rights (MSRs) In connection with the securitization of mortgage loans, Citi’s U.S. consumer mortgage business generally retains the servicing rights, which entitle the Company to a future stream of cash flows based on the outstanding principal balances of the loans and the contractual servicing fee.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8944,
+      "score": 0.0
+    },
+    {
+      "sentence": "These transactions create intangible assets referred to as MSRs, which are recorded at fair value on Citi’s Consolidated Balance Sheet (see Note 23 for the valuation of MSRs).",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9407,
+      "score": 0.0
+    },
+    {
+      "sentence": "The amounts of these fees were as follows: In the Consolidated Statement of Income these fees are primarily classified as Commissions and fees , and changes in MSR fair values are classified as Other revenue .",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9212,
+      "score": 0.0
+    },
+    {
+      "sentence": "During the three and six months ended June 30, 2025, Citi transferred agency securities with a fair value of approximately $ 6.7 billion and $ 13.6 billion to re-securitization entities, compared to approximately $ 6.3 billion and $ 10.7 billion for the three and six months ended June 30, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.5343,
+      "score": -0.5343059301376343
+    },
+    {
+      "sentence": "As of June 30, 2025, the fair value of Citi-retained interests in agency re-securitization transactions structured by Citi totaled approximately $ 2.5 billion (including $ 1.6 billion related to re-securitization transactions executed in 2025), compared to $ 1.6 billion as of December 31, 2024 (including $ 977 million related to re-securitization transactions executed in 2024), which is recorded in Trading account assets .",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.6595,
+      "score": -0.6594914793968201
+    },
+    {
+      "sentence": "The original fair values of agency re-securitization transactions in which Citi holds a retained interest as of June 30, 2025 and December 31, 2024 were approximately $ 73.4 billion and $ 76.8 billion, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9454,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citi-Administered Asset-Backed Commercial Paper Conduits At June 30, 2025 and December 31, 2024, the commercial paper conduits administered by Citi had approximately $ 20.2 billion and $ 21.3 billion of purchased assets outstanding, and unfunded commitments with clients of approximately $ 15.2 billion and $ 16.7 billion, respectively.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "commercial paper"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9415,
+      "score": 0.0
+    },
+    {
+      "sentence": "At June 30, 2025 and December 31, 2024, the weighted-average remaining maturities of the commercial paper issued by the conduits were approximately 65 and 82 days, respectively.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "commercial paper"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9229,
+      "score": 0.0
+    },
+    {
+      "sentence": "In the event that defaulted assets exceed the transaction-specific credit enhancement described above, any losses in each conduit are allocated first to the Company and then to the commercial paper investors.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "default",
+        "commercial paper"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9473,
+      "score": 0.0
+    },
+    {
+      "sentence": "At June 30, 2025 and December 31, 2024, the Company owned $ 7.3 billion and $ 6.4 billion, respectively, of the commercial paper issued by its administered conduits.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "commercial paper"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9476,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company’s investments were not driven by market illiquidity and the Company is not obligated under any agreement to purchase the commercial paper issued by the conduits.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "liquidity",
+        "commercial paper"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9326,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company provides other liquidity agreements or letters of credit to customer-sponsored municipal investment funds, which are not variable interest entities, and municipality-related issuers that totaled $ 0.1 billion and $ 0.5 billion as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "var",
+        "liquidity"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9359,
+      "score": 0.0
+    },
+    {
+      "sentence": "These liquidity agreements and letters of credit are offset by reimbursement agreements with various term-out provisions.",
+      "categories": [
+        "credit_risk",
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "provision",
+        "var",
+        "liquidity"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8504,
+      "score": 0.0
+    },
+    {
+      "sentence": "For Citi to realize the maximum loss, the VIE (borrower) would have to default with no recovery from the assets held by the VIE.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.5285,
+      "score": 0.0
+    },
+    {
+      "sentence": "DERIVATIVES In the ordinary course of business, Citigroup enters into various types of derivative transactions.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.934,
+      "score": 0.0
+    },
+    {
+      "sentence": "All derivatives are recorded in Trading account assets/Trading account liabilities on the Consolidated Balance Sheet.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9461,
+      "score": 0.0
+    },
+    {
+      "sentence": "For additional information regarding Citi’s use of and accounting for derivatives, see Note 24 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Information pertaining to Citigroup’s derivatives activities, based on notional amounts, is presented in the table below.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9495,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citi’s derivative exposure arises primarily from market fluctuations (i.e., market risk), counterparty failure (i.e., credit risk) and/or periods of high volatility or financial stress (i.e., liquidity risk), as well as any market valuation adjustments that may be required on the transactions.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "market risk",
+        "volatility",
+        "liquidity"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7174,
+      "score": 0.0
+    },
+    {
+      "sentence": "Moreover, notional amounts presented below do not reflect the netting of offsetting trades.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8652,
+      "score": 0.0
+    },
+    {
+      "sentence": "For example, if Citi enters into a receive-fixed interest rate swap with $100 million notional, and offsets this risk with an identical but opposite pay-fixed position with a different counterparty, $200 million in derivative notionals is reported, although these offsetting positions may result in de minimis overall market risk.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "market risk",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6705,
+      "score": 0.0
+    },
+    {
+      "sentence": "Derivative Notionals (1) Credit derivatives are arrangements designed to allow one party (protection purchaser) to transfer the credit risk of a “reference asset” to another party (protection seller).",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9485,
+      "score": 0.0
+    },
+    {
+      "sentence": "175 The following tables present the gross and net fair values of the Company’s derivative transactions and the related offsetting amounts as of June 30, 2025 and December 31, 2024.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.94,
+      "score": 0.0
+    },
+    {
+      "sentence": "Gross positive fair values are offset against gross negative fair values by counterparty, pursuant to enforceable master netting agreements.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9217,
+      "score": 0.0
+    },
+    {
+      "sentence": "In addition, the following tables reflect rule changes adopted by clearing organizations that require or allow entities to treat certain derivative assets, liabilities and the related variation margin as settlement of the related derivative fair values for legal and accounting purposes, as opposed to presenting gross derivative assets and liabilities that are subject to collateral, whereby the counterparties would also record a related collateral payable or receivable.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9427,
+      "score": 0.0
+    },
+    {
+      "sentence": "The tables also present amounts that are not permitted to be offset in the Company’s balance sheet presentation, such as security collateral or cash collateral posted at third-party custodians, but which would be eligible for offsetting to the extent that an event of default has occurred and a legal opinion supporting enforceability of the netting and collateral rights has been obtained.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9376,
+      "score": 0.0
+    },
+    {
+      "sentence": "176 Derivative Mark-to-Market (MTM) Receivables/Payables (1) The derivatives fair values are also presented in Note 23.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9505,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Over-the-counter (OTC) derivatives are derivatives executed and settled bilaterally with counterparties without the use of an organized exchange or central clearing house.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.951,
+      "score": 0.0
+    },
+    {
+      "sentence": "Cleared derivatives include derivatives executed bilaterally with a counterparty in the OTC market, but then novated to a central clearing house, whereby the central clearing house becomes the counterparty to both of the original counterparties.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9472,
+      "score": 0.0
+    },
+    {
+      "sentence": "Exchange-traded derivatives include derivatives executed directly on an organized exchange that provides pre-trade price transparency.",
+      "categories": [
+        "market_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "derivatives",
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9448,
+      "score": 0.0
+    },
+    {
+      "sentence": "Approximately $ 241 billion, $ 100 billion and $ 44 billion of the netting against trading account asset/liability balances is attributable to each of the OTC, cleared and exchange-traded derivatives, respectively.",
+      "categories": [
+        "market_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "derivatives",
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.944,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) The net receivables/payables include approximately $ 10 billion of derivative asset and $ 14 billion of derivative liability fair values not subject to enforceable master netting agreements, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9473,
+      "score": 0.0
+    },
+    {
+      "sentence": "177 (1) The derivative fair values are also presented in Note 23.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9496,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) OTC derivatives are derivatives executed and settled bilaterally with counterparties without the use of an organized exchange or central clearing house.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9512,
+      "score": 0.0
+    },
+    {
+      "sentence": "Cleared derivatives include derivatives executed bilaterally with a counterparty in the OTC market, but then novated to a central clearing house, whereby the central clearing house becomes the counterparty to both of the original counterparties.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9472,
+      "score": 0.0
+    },
+    {
+      "sentence": "Exchange-traded derivatives include derivatives executed directly on an organized exchange that provides pre-trade price transparency.",
+      "categories": [
+        "market_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "derivatives",
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9448,
+      "score": 0.0
+    },
+    {
+      "sentence": "Approximately $ 264 billion, $ 36 billion and $ 35 billion of the netting against trading account asset/liability balances is attributable to each of the OTC, cleared and exchange-traded derivatives, respectively.",
+      "categories": [
+        "market_risk",
+        "macro_signals"
+      ],
+      "phrases": [
+        "derivatives",
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9432,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) The net receivables/payables include approximately $ 13 billion of derivative asset and $ 15 billion of derivative liability fair values not subject to enforceable master netting agreements, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9469,
+      "score": 0.0
+    },
+    {
+      "sentence": "178 For the three and six months ended June 30, 2025 and 2024, amounts recognized in Principal transactions in the Consolidated Statement of Income include certain derivatives not designated in a qualifying hedging relationship.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "hedging",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9287,
+      "score": 0.0
+    },
+    {
+      "sentence": "The amounts recognized in Other revenue in the Consolidated Statement of Income related to derivatives not designated in a qualifying hedging relationship are presented below.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "hedging",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9458,
+      "score": 0.0
+    },
+    {
+      "sentence": "The table below does not include any offsetting gains (losses) on the economically hedged items: 179 Fair Value Hedges For additional information on Citi’s fair value hedges, see Notes 1 and 24 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9208,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table summarizes the gains (losses) on the Company’s fair value hedges: (1) Gain (loss) amounts for interest rate risk hedges are included in Interest income/Interest expense .",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "interest rate risk",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8495,
+      "score": 0.0
+    },
+    {
+      "sentence": "The accrued interest income on fair value hedges is recorded in Net interest income and is excluded from this table.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "net interest"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9175,
+      "score": 0.0
+    },
+    {
+      "sentence": "The table below presents the carrying amount of Citi’s hedged assets and liabilities under qualifying fair value hedges at June 30, 2025 and December 31, 2024, along with the cumulative basis adjustments included in the carrying value of those hedged assets and liabilities that would reverse through earnings in future periods: (1) Excludes physical commodities inventories with a carrying value of approximately $ 9.2 billion and $ 11.4 billion as of June 30, 2025 and December 31, 2024, respectively, which includes cumulative basis adjustments of approximately $ 0.5 billion and $ 0.8 billion, respectively, for active hedges.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.918,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) The Company designated approximately $ 27.4 billion and $ 12.9 billion as the hedged amount in the portfolio-layer hedging relationship as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "hedging"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9404,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) The Company designated approximately $ 26.0 billion and $ 17.0 billion as the hedged amount in the portfolio-layer hedging relationship as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "hedging"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.941,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) The Company designated approximately $ 2.6 billion and $ 3.0 billion as the hedged amount in the portfolio-layer hedging relationship as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "hedging"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9402,
+      "score": 0.0
+    },
+    {
+      "sentence": "181 Cash Flow Hedges For additional information on Citi’s cash flow hedges, see Notes 1 and 24 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9441,
+      "score": 0.0
+    },
+    {
+      "sentence": "The pretax change in AOCI from cash flow hedges is presented below: (1) All amounts reclassified into earnings for interest rate contracts are included in Interest income/Interest expense (Net interest income) .",
+      "categories": [
+        "credit_risk",
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "net interest",
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9529,
+      "score": 0.0
+    },
+    {
+      "sentence": "For all other hedges, the amounts reclassified to earnings are included primarily in Other revenue and Net interest income in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "net interest"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9476,
+      "score": 0.0
+    },
+    {
+      "sentence": "The net gain (loss) associated with cash flow hedges expected to be reclassified from AOCI within 12 months of June 30, 2025 is approximately $( 0.2 ) billion.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.702,
+      "score": 0.0
+    },
+    {
+      "sentence": "The maximum length of time over which forecasted cash flows are hedged is 13 years.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9441,
+      "score": 0.0
+    },
+    {
+      "sentence": "The after-tax impact of cash flow hedges on AOCI is presented in Note 19.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "cash flow"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8897,
+      "score": 0.0
+    },
+    {
+      "sentence": "182 Credit Derivatives The following tables summarize the key characteristics of Citi’s credit derivatives portfolio by reference entity and derivative form: (1) The fair value amount receivable is composed of $ 3,890 million under protection purchased and $ 6,097 million under protection sold.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9517,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) The fair value amount payable is composed of $ 7,684 million under protection purchased and $ 1,825 million under protection sold.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9464,
+      "score": 0.0
+    },
+    {
+      "sentence": "(1) The fair value amount receivable is composed of $ 3,864 million under protection purchased and $ 4,851 million under protection sold.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9495,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) The fair value amount payable is composed of $ 5,403 million under protection purchased and $ 1,850 million under protection sold.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9479,
+      "score": 0.0
+    },
+    {
+      "sentence": "183 Credit Risk-Related Contingent Features in Derivatives Certain derivative instruments contain provisions that require the Company to either post additional collateral or immediately settle any outstanding liability balances upon the occurrence of a specified event related to the credit risk of the Company.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "provision",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9142,
+      "score": 0.0
+    },
+    {
+      "sentence": "The fair value (excluding CVA) of all derivative instruments with credit risk-related contingent features that were in a net liability position at June 30, 2025 and December 31, 2024 was $ 13 billion and $ 15 billion, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9185,
+      "score": 0.0
+    },
+    {
+      "sentence": "Derivatives Accompanied by Financial Asset Transfers For transfers of financial assets accounted for as a sale by the Company, and for which the Company has retained substantially all of the economic exposure to the transferred asset through a total return swap executed with the same counterparty in contemplation of the initial sale (and still outstanding), the asset amounts derecognized and the gross cash proceeds received as of the date of derecognition were $ 4.9 billion and $ 6.2 billion as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9429,
+      "score": 0.0
+    },
+    {
+      "sentence": "At June 30, 2025, the fair value of these previously derecognized assets was $ 4.6 billion.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9367,
+      "score": 0.0
+    },
+    {
+      "sentence": "The fair value of the total return swaps as of June 30, 2025 was $ 119 million recorded as gross derivative assets and $ 26 million recorded as gross derivative liabilities.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9124,
+      "score": 0.0
+    },
+    {
+      "sentence": "At December 31, 2024, the fair value of these previously derecognized assets was $ 5.8 billion, and the fair value of the total return swaps was $ 179 million recorded as gross derivative assets and $ 29 million recorded as gross derivative liabilities.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.922,
+      "score": 0.0
+    },
+    {
+      "sentence": "The balances for the total return swaps are on a gross basis, before the application of counterparty and cash collateral netting, and are included primarily as equity derivatives in the tabular disclosures in this Note.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9472,
+      "score": 0.0
+    },
+    {
+      "sentence": "FAIR VALUE MEASUREMENT For additional information regarding fair value measurement at Citi, see Note 26 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. Fair Value Hierarchy Principles ASC 820-10 specifies a hierarchy of inputs based on whether the inputs are observable or unobservable.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.943,
+      "score": 0.0
+    },
+    {
+      "sentence": "These two types of inputs have created the following fair value hierarchy: • Level 1: Quoted prices for identical instruments in active markets.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9098,
+      "score": 0.0
+    },
+    {
+      "sentence": "As required under the fair value hierarchy, the Company considers relevant and observable market inputs in its valuations where possible.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9102,
+      "score": 0.0
+    },
+    {
+      "sentence": "The fair value hierarchy classification approach typically utilizes rules-based and data-driven criteria to determine whether an instrument is classified as Level 1, Level 2 or Level 3: • The determination of whether an instrument is quoted in an active market and therefore considered a Level 1 instrument is based on the frequency of observed transactions and the quality of independent market data available on the measurement date.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9453,
+      "score": 0.0
+    },
+    {
+      "sentence": "Market Valuation Adjustments The table below summarizes the credit valuation adjustments (CVA) and funding valuation adjustments (FVA) applied to the fair value of derivative instruments (recorded in Trading account assets and Trading account liabilities on the Consolidated Balance Sheet) at June 30, 2025 and December 31, 2024: The table below summarizes pretax gains (losses) related to changes in CVA and FVA on derivative instruments, net of hedges (recorded in Principal transactions revenue in the Consolidated Statement of Income), and changes in debt valuation adjustments (DVA) on Citi’s own fair value option (FVO) liabilities (recorded in Other comprehensive income in the Consolidated Statement of Comprehensive Income) for the periods indicated: (1) See Note 21 to the Consolidated Financial Statements in Citi’s 2024 Form 10-K. 185 Items Measured at Fair Value on a Recurring Basis The following tables present for each of the fair value hierarchy levels the Company’s assets and liabilities that are measured at fair value on a recurring basis at June 30, 2025 and December 31, 2024.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "funding"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9258,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company may hedge positions that have been classified in the Level 3 category with other financial instruments (hedging instruments) that may be classified as Level 3, but also with financial instruments classified as Level 1 or Level 2.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "hedging"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9438,
+      "score": 0.0
+    },
+    {
+      "sentence": "These hedges are presented gross in the following tables: Fair Value Levels Table continues on the next page.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9473,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Amounts exclude $ 32 million of investments measured at net asset value (NAV) in accordance with ASU 2015-07, Fair Value Measurement (Topic 820): Disclosures for Investments in Certain Entities That Calculate Net Asset Value per Share (or Its Equivalent).",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9486,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Because the amount of the cash collateral paid/received has not been allocated to the Level 1, 2 and 3 subtotals, these percentages are calculated based on total assets and liabilities measured at fair value on a recurring basis, excluding the cash collateral paid/received on derivatives.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9273,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Amounts exclude $ 23 million of investments measured at NAV in accordance with ASU 2015-07, Fair Value Measurement (Topic 820): Disclosures for Investments in Certain Entities That Calculate Net Asset Value per Share (or Its Equivalent).",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9454,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Because the amount of the cash collateral paid/received has not been allocated to the Level 1, 2 and 3 subtotals, these percentages are calculated based on total assets and liabilities measured at fair value on a recurring basis, excluding the cash collateral paid/received on derivatives.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9273,
+      "score": 0.0
+    },
+    {
+      "sentence": "189 Changes in Level 3 Fair Value Category The following tables present the changes in the Level 3 fair value category for the three and six months ended June 30, 2025 and 2024.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.802,
+      "score": 0.0
+    },
+    {
+      "sentence": "The gains and losses presented below include changes in the fair value related to both observable and unobservable inputs.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9185,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company often hedges positions with offsetting positions that are classified in a different level.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "classified"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9041,
+      "score": 0.0
+    },
+    {
+      "sentence": "For example, the gains and losses for assets and liabilities in the Level 3 category presented in the tables below do not reflect the effect of offsetting losses and gains on hedging instruments that may be classified in the Level 1 or Level 2 categories.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "hedging"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8602,
+      "score": 0.0
+    },
+    {
+      "sentence": "In addition, the Company hedges items classified in the Level 3 category with instruments also classified in Level 3 of the fair value hierarchy.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9443,
+      "score": 0.0
+    },
+    {
+      "sentence": "The hedged items and related hedges are presented gross in the following tables: Level 3 Fair Value Rollforward Table continues on the next page.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9465,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value of available-for-sale debt securities are recorded in AOCI , unless related to credit impairment, while gains and losses from sales are recorded in Realized gains (losses) from sales of investments in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9044,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Represents the amount of total gains or losses for the period, included in earnings (and AOCI for changes in fair value of available-for-sale debt securities and DVA on fair value option liabilities), attributable to the change in fair value relating to assets and liabilities classified as Level 3 that are still held at June 30, 2025.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9343,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value of available-for-sale debt securities are recorded in AOCI , unless related to credit impairment, while gains and losses from sales are recorded in Realized gains (losses) from sales of investments in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9044,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Represents the amount of total gains or losses for the period, included in earnings (and AOCI for changes in fair value of available-for-sale debt securities and DVA on fair value option liabilities), attributable to the change in fair value relating to assets and liabilities classified as Level 3 that are still held at June 30, 2025.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9343,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value of available-for-sale debt securities are recorded in AOCI , unless related to credit impairment, while gains and losses from sales are recorded in Realized gains (losses) from sales of investments in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9044,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Represents the amount of total gains or losses for the period, included in earnings (and AOCI for changes in fair value of available-for-sale debt securities and DVA on fair value option liabilities), attributable to the change in fair value relating to assets and liabilities classified as Level 3 that are still held at June 30, 2024.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9338,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value of available-for-sale debt securities are recorded in AOCI , unless related to credit impairment, while gains and losses from sales are recorded in Realized gains (losses) from sales of investments in the Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9044,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Represents the amount of total gains or losses for the period, included in earnings (and AOCI for changes in fair value of available-for-sale debt securities and DVA on fair value option liabilities), attributable to the change in fair value relating to assets and liabilities classified as Level 3 that are still held at June 30, 2024.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9338,
+      "score": 0.0
+    },
+    {
+      "sentence": "197 Level 3 Fair Value Transfers The following were the significant Level 3 transfers for the period from December 31, 2024 to June 30, 2025: • During the three and six months ended June 30, 2025, transfers of Long-term debt were $ 1.2 billion and $ 2.1 billion from Level 3 to Level 2, and $ 0.6 billion and $ 1.2 billion from Level 2 to Level 3, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9233,
+      "score": 0.0
+    },
+    {
+      "sentence": "198 Valuation Techniques and Inputs for Level 3 Fair Value Measurements The following tables present the valuation techniques covering the majority of Level 3 inventory and the most significant unobservable inputs used in Level 3 fair value measurements.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9376,
+      "score": 0.0
+    },
+    {
+      "sentence": "Differences between these tables and amounts presented in the Level 3 Fair Value Rollforward tables represent individually immaterial items that have been measured using a variety of valuation techniques other than those listed.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9291,
+      "score": 0.0
+    },
+    {
+      "sentence": "199 200 (1) The tables above include the fair values for the items listed and may not represent the total population for each category.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9226,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Weighted averages are calculated based on the fair values of the instruments.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9483,
+      "score": 0.0
+    },
+    {
+      "sentence": "(6) Both trading and non-trading account derivatives—assets and liabilities—are presented on a gross absolute value basis.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "derivatives"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9544,
+      "score": 0.0
+    },
+    {
+      "sentence": "201 Items Measured at Fair Value on a Nonrecurring Basis Certain assets and liabilities are measured at fair value on a nonrecurring basis and, therefore, are not included in the tables above.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.933,
+      "score": 0.0
+    },
+    {
+      "sentence": "These include assets measured at cost that have been written down to fair value during the periods as a result of an impairment.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.594,
+      "score": 0.0
+    },
+    {
+      "sentence": "These also include non-marketable equity securities that have been measured using the measurement alternative and are either (i) written down to fair value during the periods as a result of an impairment or (ii) adjusted upward or downward to fair value as a result of a transaction observed during the periods for an identical or similar investment in the same issuer.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "impairment",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8101,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following tables present the carrying amounts of all assets that were still held as of the balance sheet date for which a nonrecurring fair value measurement was recorded during the year.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9124,
+      "score": 0.0
+    },
+    {
+      "sentence": "The amounts reflect the fair values of the assets as of their respective remeasurement dates, which are generally prior to the balance sheet date.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9495,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following tables exclude certain consumer mortgage loans for which Citi has elected the fair value option (see Note 24), and consumer loans and other assets held by businesses held-for-sale (see Note 2): (1) Net of mark-to-market amounts on the unfunded portion of loans HFS recognized as Other liabilities on the Consolidated Balance Sheet.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9418,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) Represents collateral-dependent loans held for investment for which the fair value of collateral is used to estimate expected credit losses, and whose carrying amount is based on the fair value of the underlying collateral less costs to sell, as applicable (primarily real estate).",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9345,
+      "score": 0.0
+    },
+    {
+      "sentence": "202 Valuation Techniques and Inputs for Level 3 Nonrecurring Fair Value Measurements The following tables present the valuation techniques covering the majority of Level 3 nonrecurring fair value measurements and the most significant unobservable inputs used in those measurements: (1) The tables above include the fair values for the items listed and may not represent the total population for each category.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9436,
+      "score": 0.0
+    },
+    {
+      "sentence": "(3) Weighted averages are calculated based on the fair values of the instruments.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9485,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) Represents collateral-dependent loans held for investment for which the fair value of collateral is used to estimate expected credit losses, and whose carrying amount is based on the fair value of the underlying collateral less costs to sell, as applicable (primarily real estate).",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9314,
+      "score": 0.0
+    },
+    {
+      "sentence": "Nonrecurring Fair Value Changes The following table presents total nonrecurring fair value measurements for the period, included in earnings, attributable to the change in fair value relating to assets that were still held: (1) Represents collateral-dependent loans held for investment for which the fair value of collateral is used to estimate expected credit losses, and whose carrying amount is based on the fair value of the underlying collateral less costs to sell, as applicable (primarily real estate).",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.889,
+      "score": 0.0
+    },
+    {
+      "sentence": "203 Estimated Fair Value of Financial Instruments Not Carried at Fair Value The following tables present the carrying value and fair value of Citigroup’s financial instruments that are not carried at fair value.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9171,
+      "score": 0.0
+    },
+    {
+      "sentence": "The tables below therefore exclude items measured at fair value on a recurring basis presented in the tables above.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8437,
+      "score": 0.0
+    },
+    {
+      "sentence": "(2) The carrying value of loans is net of the allowance for credit losses on loans of $ 19.1 billion for June 30, 2025 and $ 18.6 billion for December 31, 2024.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "credit loss",
+        "allowance"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9312,
+      "score": 0.0
+    },
+    {
+      "sentence": "(4) Includes cash and due from banks, deposits with banks, brokerage receivables, reinsurance recoverables and other financial instruments included in Other assets on the Consolidated Balance Sheet, for all of which the carrying value is a reasonable estimate of fair value.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9501,
+      "score": 0.0
+    },
+    {
+      "sentence": "(5) As a result of Citi refining its application of fair value hierarchy methodologies, certain other financial assets and other financial liabilities that were previously classified as Level 2 or 3 are now classified as Level 1 or 2.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9359,
+      "score": 0.0
+    },
+    {
+      "sentence": "(6) The carrying value includes long-term debt balances under qualifying fair value hedges.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9497,
+      "score": 0.0
+    },
+    {
+      "sentence": "(7) Includes brokerage payables, separate and variable accounts, short-term borrowings (carried at cost) and other financial instruments included in Other liabilities on the Consolidated Balance Sheet, for all of which the carrying value is a reasonable estimate of fair value.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "var",
+        "fair value",
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9494,
+      "score": 0.0
+    },
+    {
+      "sentence": "The estimated fair values of the Company’s corporate unfunded lending commitments at June 30, 2025 and December 31, 2024 were off-balance sheet liabilities of $ 9.8 billion and $ 13.5 billion, respectively, substantially all of which are classified as Level 3.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8174,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company does not estimate the fair values of consumer unfunded lending commitments, which are generally cancelable by providing notice to the borrower.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9323,
+      "score": 0.0
+    },
+    {
+      "sentence": "FAIR VALUE ELECTIONS The Company may elect to report most financial instruments and certain other items at fair value on an instrument-by-instrument basis with changes in fair value reported in earnings, other than DVA (see below).",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9457,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company has elected fair value accounting for its mortgage servicing rights (MSRs).",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7898,
+      "score": 0.0
+    },
+    {
+      "sentence": "Additional discussion regarding other applicable areas in which fair value elections were made is presented in Note 23.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.951,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table presents the changes in fair value of those items for which the fair value option has been elected: (1) Includes gains (losses) associated with interest rate lock commitments for originated loans for which the Company has elected the fair value option.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8196,
+      "score": 0.0
+    },
+    {
+      "sentence": "205 Own Debt Valuation Adjustments (DVA) Own debt valuation adjustments are recognized on Citi’s liabilities for which the fair value option has been elected using Citi’s credit spreads observed in the bond market.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9438,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value of fair value option liabilities related to changes in Citigroup’s own credit spreads (DVA) are reflected as a component of AOCI .",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9246,
+      "score": 0.0
+    },
+    {
+      "sentence": "Among other variables, the fair value of liabilities for which the fair value option has been elected (other than non-recourse debt and similar liabilities) is impacted by the narrowing or widening of the Company’s credit spreads.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "var",
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.5954,
+      "score": -0.5953837633132935
+    },
+    {
+      "sentence": "The estimated changes in the fair value of these non-derivative liabilities due to such changes in the Company’s own credit spread (or instrument-specific credit risk) were a loss of $( 391 ) million and a gain of $ 343 million for the three months ended June 30, 2025 and 2024, and a gain of $ 609 million and a loss of $( 407 ) million for the six months ended June 30, 2025 and 2024, respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.7977,
+      "score": -0.7976672053337097
+    },
+    {
+      "sentence": "Changes in fair value resulting from changes in instrument-specific credit risk were estimated by incorporating the Company’s current credit spreads observable in the bond market into the relevant valuation technique used to value each liability as described above.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9236,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Fair Value Option for Financial Assets and Financial Liabilities Selected Portfolios of Securities Purchased Under Agreements to Resell, Securities Borrowed, Securities Sold Under Agreements to Repurchase, Securities Loaned and Certain Uncollateralized Short-Term Borrowings The Company elected the fair value option for certain portfolios of fixed income securities purchased under agreements to resell and fixed income securities sold under agreements to repurchase, securities borrowed, securities loaned and certain uncollateralized short-term borrowings held primarily by broker-dealer entities in the U.S., the U.K. and Japan.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9412,
+      "score": 0.0
+    },
+    {
+      "sentence": "In each case, the election was made because the related interest rate risk is managed on a portfolio basis, primarily with offsetting derivative instruments that are accounted for at fair value through earnings.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "interest rate risk",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9137,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value for transactions in these portfolios are recorded in Principal transactions .",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9232,
+      "score": 0.0
+    },
+    {
+      "sentence": "The related interest income and interest expense are measured based on the contractual rates specified in the transactions and are reported as Interest income and Interest expense in the Consolidated Statement of Income.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9455,
+      "score": 0.0
+    },
+    {
+      "sentence": "Loans and Other Credit Products Citigroup has also elected the fair value option for certain other originated and purchased loans, including certain unfunded loan products, such as guarantees and letters of credit, executed by Citigroup’s lending and trading businesses.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8323,
+      "score": 0.0
+    },
+    {
+      "sentence": "Significant groups of transactions include loans and unfunded loan products that are expected to be either sold or securitized in the near term, or transactions where the economic risks are hedged with derivative instruments, such as purchased credit default swaps or total return swaps where the Company pays the total return on the underlying loans to a third party.",
+      "categories": [
+        "credit_risk"
+      ],
+      "phrases": [
+        "default"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9431,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citigroup has elected the fair value option to mitigate accounting mismatches in cases where hedge accounting is complex and to achieve operational simplifications.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.8167,
+      "score": 0.8167124390602112
+    },
+    {
+      "sentence": "Fair value was not elected for most lending transactions across the Company.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.903,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table provides information about certain credit products carried at fair value: In addition to the amounts reported above, $ 360 million and $ 280 million of unfunded commitments related to certain credit products selected for fair value accounting were outstanding as of June 30, 2025 and December 31, 2024, respectively.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.945,
+      "score": 0.0
+    },
+    {
+      "sentence": "206 Changes in the fair value of funded and unfunded credit products are classified in Principal transactions in Citi’s Consolidated Statement of Income.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9291,
+      "score": 0.0
+    },
+    {
+      "sentence": "Related interest income is measured based on the contractual interest rates and reported as Interest income on Trading account assets or loan interest depending on the balance sheet classifications of the credit products.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9453,
+      "score": 0.0
+    },
+    {
+      "sentence": "The changes in fair value for the three months ended June 30, 2025 and 2024 due to instrument-specific credit risk were a loss of $( 7 ) million and $ 0 million , respectively.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9614,
+      "score": -0.9613949060440063
+    },
+    {
+      "sentence": "Changes in fair value due to instrument-specific credit risk are estimated based on changes in borrower-specific credit spreads and recovery assumptions.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.915,
+      "score": 0.0
+    },
+    {
+      "sentence": "Citigroup elects the fair value option for the debt host contract and reports the contract within Trading account assets on the Company’s Consolidated Balance Sheet.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9514,
+      "score": 0.0
+    },
+    {
+      "sentence": "As part of its commodity trading activities, Citi trades unallocated precious metals investments and executes forward purchase and forward sale derivative contracts with trading counterparties.",
+      "categories": [
+        "macro_signals"
+      ],
+      "phrases": [
+        "trade"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9469,
+      "score": 0.0
+    },
+    {
+      "sentence": "When Citi sells an unallocated precious metals investment, Citi’s receivable from its depository bank is repaid and Citi derecognizes its investment in the unallocated precious metal.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "deposit"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9434,
+      "score": 0.0
+    },
+    {
+      "sentence": "The forward purchase or sale contract with the trading counterparty indexed to unallocated precious metals is accounted for as a derivative, at fair value through earnings.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.954,
+      "score": 0.0
+    },
+    {
+      "sentence": "Certain Mortgage Loans Held-for-Sale (HFS) Citigroup has elected the fair value option for certain purchased and originated prime fixed-rate and conforming adjustable-rate first mortgage loans HFS.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.6967,
+      "score": 0.0
+    },
+    {
+      "sentence": "The Company has elected the fair value option to mitigate accounting mismatches in cases where hedge accounting is complex and to achieve operational simplifications.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.8608,
+      "score": 0.860831618309021
+    },
+    {
+      "sentence": "The following table provides information about certain mortgage loans HFS carried at fair value: During the six months ended June 30, 2025 and 2024, certain mortgage loans of approximately $ 241 million and $ 0 million , respectively, for which Citi has elected the fair value option (FVO), were reclassified from loans held-for-investment carried at fair value to loans HFS carried at fair value.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "classified",
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9296,
+      "score": 0.0
+    },
+    {
+      "sentence": "The changes in the fair values of these mortgage loans are reported in Other revenue in the Company’s Consolidated Statement of Income.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9358,
+      "score": 0.0
+    },
+    {
+      "sentence": "There was no net change in fair value during the six months ended June 30, 2025 and 2024 due to instrument-specific credit risk.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8122,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in fair value due to instrument-specific credit risk are estimated based on changes in the borrower default, prepayment and recovery forecasts in addition to instrument-specific credit spread.",
+      "categories": [
+        "credit_risk",
+        "market_risk"
+      ],
+      "phrases": [
+        "default",
+        "fair value",
+        "spread"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9079,
+      "score": 0.0
+    },
+    {
+      "sentence": "Related interest income continues to be measured based on the contractual interest rates and reported as Interest income in the Consolidated Statement of Income.",
+      "categories": [
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9504,
+      "score": 0.0
+    },
+    {
+      "sentence": "207 Certain Debt Liabilities The Company has elected the fair value option for certain debt liabilities, because these exposures are considered to be trading-related positions and, therefore, are managed on a fair value basis.",
+      "categories": [
+        "market_risk"
+      ],
+      "phrases": [
+        "fair value"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8804,
+      "score": 0.0
+    },
+    {
+      "sentence": "These positions are classified as Long-term debt or Short-term borrowings on the Company’s Consolidated Balance Sheet.",
+      "categories": [
+        "credit_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "classified",
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9488,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table provides information about the carrying value of notes carried at fair value, disaggregated by type of risk: The portion of the changes in fair value attributable to changes in Citigroup’s own credit spreads (DVA) is reflected as a component of AOCI while all other changes in fair value are reported in Principal transactions .",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "spread",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9384,
+      "score": 0.0
+    },
+    {
+      "sentence": "Changes in the fair value of these liabilities include accrued interest, which is also included in the change in fair value reported in Principal transactions .",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "repo"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9373,
+      "score": 0.0
+    },
+    {
+      "sentence": "The following table provides information about long-term debt and short-term borrowings carried at fair value: 208 25.",
+      "categories": [
+        "market_risk",
+        "liquidity_risk"
+      ],
+      "phrases": [
+        "fair value",
+        "borrowing"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9486,
+      "score": 0.0
+    }
+  ]
+}

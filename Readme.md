@@ -85,6 +85,8 @@ For each ticker, the tool generates:
 ---
 
 ## Project structure
+
+```
 nlp-finance-sentiment/
 ├── src/
 │   ├── acquisition.py      # SEC EDGAR download + MD&A extraction
@@ -95,13 +97,12 @@ nlp-finance-sentiment/
 │   ├── 01_data_acquisition.ipynb
 │   ├── 02_nlp_pipeline.ipynb
 │   ├── 03_sentiment_engine.ipynb
-│   └── 04_report.ipynb     # Comparative visualisation (JPM vs Citi)
-├── outputs/                # JSON reports + charts (gitignored for raw data)
+│   └── 04_report.ipynb
+├── outputs/
 ├── run_analysis.py         # Single entry point CLI
 ├── inspect_filing.py       # Diagnostic tool for new filing structures
 └── requirements.txt
-
----
+```
 
 ## Methodology
 
@@ -127,6 +128,8 @@ Overall and category scores are the mean across all scored sentences in that gro
 ---
 
 ## Requirements
+
+```
 sec-edgar-downloader
 transformers
 torch
@@ -138,8 +141,7 @@ matplotlib
 jupyter
 ipykernel
 tqdm
-
----
+```
 
 ## Author
 

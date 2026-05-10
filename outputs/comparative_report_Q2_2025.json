@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-10T21:54:29.361892",
+  "companies": {
+    "JPM": {
+      "name": "JPMorgan Chase & Co.",
+      "period": "Q2 2025",
+      "overall_score": 0.0143,
+      "sentences_scored": 886,
+      "by_category": {
+        "credit_risk": -0.0115,
+        "market_risk": 0.028,
+        "macro_signals": -0.0643,
+        "liquidity_risk": 0.0358
+      },
+      "distribution": {
+        "positive": 78,
+        "negative": 68,
+        "neutral": 740
+      }
+    },
+    "C": {
+      "name": "Citigroup Inc.",
+      "period": "Q2 2025",
+      "overall_score": -0.0254,
+      "sentences_scored": 312,
+      "by_category": {
+        "credit_risk": -0.025,
+        "market_risk": -0.0095,
+        "macro_signals": 0.0016,
+        "liquidity_risk": -0.0422
+      },
+      "distribution": {
+        "positive": 6,
+        "negative": 18,
+        "neutral": 288
+      }
+    }
+  },
+  "key_findings": [
+    "JPM net positive (+0.0143), Citi net negative (-0.0254) overall",
+    "JPM stronger on market risk (+0.028) driven by CIB revenues",
+    "Citi most negative on liquidity risk (-0.042) reflecting transformation pressures",
+    "Both banks negative on credit risk — JPM (-0.011), Citi (-0.025)",
+    "JPM macro signals (-0.064) more negative than Citi (+0.002) — explicit headwind language"
+  ]
+}

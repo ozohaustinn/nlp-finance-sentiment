@@ -1,97 +1,97 @@
 {
   "ticker": "C",
-  "period": "2026-05-10T21:20:01.934327",
-  "run_at": "2026-05-10T21:20:54.090998",
+  "period": "2026-05-10T21:58:08.712398",
+  "run_at": "2026-05-10T21:58:48.626864",
   "acquisition": {
-    "mda_char_count": 161026
+    "mda_char_count": 209982
   },
   "pipeline": {
     "stats": {
-      "total_sentences": 787,
-      "clean_sentences": 641,
-      "risk_flagged": 312,
-      "coverage_pct": 48.7
+      "total_sentences": 1147,
+      "clean_sentences": 962,
+      "risk_flagged": 485,
+      "coverage_pct": 50.4
     },
     "top_tfidf_terms": [
       {
-        "term": "value",
-        "score": 19.0
-      },
-      {
-        "term": "fair",
-        "score": 18.291
-      },
-      {
-        "term": "fair value",
-        "score": 16.71
-      },
-      {
-        "term": "loans",
-        "score": 12.629
-      },
-      {
         "term": "credit",
-        "score": 11.524
+        "score": 25.886
       },
       {
         "term": "citi",
-        "score": 11.17
+        "score": 23.053
       },
       {
-        "term": "company",
-        "score": 10.187
-      },
-      {
-        "term": "income",
-        "score": 8.395
-      },
-      {
-        "term": "assets",
-        "score": 7.957
-      },
-      {
-        "term": "securities",
-        "score": 7.642
+        "term": "driven",
+        "score": 17.878
       },
       {
         "term": "losses",
-        "score": 7.605
+        "score": 16.436
       },
       {
-        "term": "consolidated",
-        "score": 7.022
+        "term": "risk",
+        "score": 15.555
       },
       {
-        "term": "liabilities",
-        "score": 6.863
+        "term": "credit losses",
+        "score": 15.461
       },
       {
-        "term": "financial",
-        "score": 6.567
+        "term": "income",
+        "score": 14.872
       },
       {
-        "term": "changes",
-        "score": 6.56
+        "term": "higher",
+        "score": 14.546
+      },
+      {
+        "term": "loans",
+        "score": 14.133
+      },
+      {
+        "term": "deposits",
+        "score": 12.591
+      },
+      {
+        "term": "acl",
+        "score": 12.15
+      },
+      {
+        "term": "revenues",
+        "score": 11.379
+      },
+      {
+        "term": "reflecting",
+        "score": 11.046
+      },
+      {
+        "term": "value",
+        "score": 10.978
+      },
+      {
+        "term": "rate",
+        "score": 10.87
       }
     ]
   },
   "sentiment": {
     "model": "ProsusAI/finbert",
     "summary": {
-      "total_scored": 312,
-      "overall_sentiment_score": -0.0254,
-      "mean_confidence": 0.8948,
-      "low_confidence_count": 11,
+      "total_scored": 485,
+      "overall_sentiment_score": 0.0833,
+      "mean_confidence": 0.8736,
+      "low_confidence_count": 39,
       "distribution": {
-        "positive": 6,
-        "negative": 18,
-        "neutral": 288
+        "positive": 129,
+        "negative": 96,
+        "neutral": 260
       },
       "by_category": {
-        "credit_risk": -0.025,
-        "market_risk": -0.0095,
-        "macro_signals": 0.0016,
-        "liquidity_risk": -0.0422
+        "credit_risk": -0.0337,
+        "market_risk": 0.1944,
+        "macro_signals": 0.2339,
+        "liquidity_risk": 0.1644
       }
     }
   }

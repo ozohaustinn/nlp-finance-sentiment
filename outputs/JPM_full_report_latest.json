@@ -1,0 +1,98 @@
+{
+  "ticker": "JPM",
+  "period": "2026-05-10T21:30:07.388085",
+  "run_at": "2026-05-10T21:31:52.914994",
+  "acquisition": {
+    "mda_char_count": 394606
+  },
+  "pipeline": {
+    "stats": {
+      "total_sentences": 2264,
+      "clean_sentences": 1876,
+      "risk_flagged": 886,
+      "coverage_pct": 47.2
+    },
+    "top_tfidf_terms": [
+      {
+        "term": "firm",
+        "score": 45.585
+      },
+      {
+        "term": "credit",
+        "score": 40.619
+      },
+      {
+        "term": "value",
+        "score": 36.163
+      },
+      {
+        "term": "fair",
+        "score": 32.633
+      },
+      {
+        "term": "fair value",
+        "score": 31.064
+      },
+      {
+        "term": "risk",
+        "score": 29.259
+      },
+      {
+        "term": "loans",
+        "score": 27.615
+      },
+      {
+        "term": "losses",
+        "score": 27.355
+      },
+      {
+        "term": "securities",
+        "score": 22.436
+      },
+      {
+        "term": "allowance",
+        "score": 21.63
+      },
+      {
+        "term": "credit losses",
+        "score": 20.502
+      },
+      {
+        "term": "derivatives",
+        "score": 19.282
+      },
+      {
+        "term": "assets",
+        "score": 18.814
+      },
+      {
+        "term": "changes",
+        "score": 18.291
+      },
+      {
+        "term": "income",
+        "score": 18.253
+      }
+    ]
+  },
+  "sentiment": {
+    "model": "ProsusAI/finbert",
+    "summary": {
+      "total_scored": 886,
+      "overall_sentiment_score": 0.0143,
+      "mean_confidence": 0.8837,
+      "low_confidence_count": 35,
+      "distribution": {
+        "positive": 78,
+        "negative": 68,
+        "neutral": 740
+      },
+      "by_category": {
+        "credit_risk": -0.0115,
+        "market_risk": 0.028,
+        "macro_signals": -0.0643,
+        "liquidity_risk": 0.0358
+      }
+    }
+  }
+}

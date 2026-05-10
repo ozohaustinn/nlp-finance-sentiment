@@ -16,7 +16,7 @@ from datetime import datetime
 import src.acquisition as acquisition
 import src.pipeline as pipeline
 import src.sentiment as sentiment
-
+import src.visualise as visualise
 
 OUTPUT_DIR = pathlib.Path("outputs")
 
@@ -138,6 +138,7 @@ def main():
     # Save combined report
     combined = save_combined_output(ticker, acq_result, pipe_result, sent_result)
     print_summary(ticker, combined)
+    visualise.run(ticker, sent_result)
 
 
 if __name__ == "__main__":

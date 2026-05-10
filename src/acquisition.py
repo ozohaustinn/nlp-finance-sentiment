@@ -66,14 +66,11 @@ def extract_mda(html_content: str) -> str:
     full_text = soup.get_text(separator=" ", strip=True)
     full_text = re.sub(r'\s+', ' ', full_text)
 
-    # MD&A start patterns — ordered by specificity
     START_PATTERNS = [
         r"management.{0,10}s discussion and analysis of financial condition",
         r"management.{0,10}s discussion and analysis",
-        r"MANAGEMENT.{0,10}S DISCUSSION AND ANALYSIS",
     ]
 
-    # End boundary patterns — tried in order, first match wins
     END_PATTERNS = [
         r"quantitative and qualitative disclosures about market risk",
         r"disclosure controls and procedures",
@@ -83,46 +80,42 @@ def extract_mda(html_content: str) -> str:
         r"item\s+4[\.\s]",
     ]
 
-    # Find start position
-    start_pos = None
+    # Find all candidate start positions
+    start_candidates = []
     for pattern in START_PATTERNS:
-        matches = list(re.finditer(pattern, full_text, re.IGNORECASE))
-        # Take the last match of the start pattern — skips TOC entries
-        if matches:
-            start_pos = matches[-1].end()
-            break
+        for m in re.finditer(pattern, full_text, re.IGNORECASE):
+            start_candidates.append(m.end())
 
-    if start_pos is None:
+    if not start_candidates:
         raise ValueError("MD&A start heading not found in filing")
 
-    # Find end position — try each boundary, take earliest one after start
-    end_pos = None
-    for pattern in END_PATTERNS:
-        matches = list(re.finditer(pattern, full_text[start_pos:], re.IGNORECASE))
-        if matches:
-            # Take first match after start, but only if it gives us >10k chars
-            candidate = matches[0].start()
-            if candidate > 10000:
-                end_pos = start_pos + candidate
-                print(f"  MD&A end boundary: '{pattern}'")
+    # For each start candidate, find the best end boundary
+    # Take the combination that gives the longest clean extract
+    best_mda = ""
+    best_start = None
+    best_end_label = None
+
+    for start_pos in start_candidates:
+        remaining = full_text[start_pos:]
+        for pattern in END_PATTERNS:
+            match = re.search(pattern, remaining, re.IGNORECASE)
+            if match and match.start() > 10000:
+                candidate = remaining[:match.start()].strip()
+                if len(candidate) > len(best_mda):
+                    best_mda = candidate
+                    best_start = start_pos
+                    best_end_label = pattern
                 break
 
-    if end_pos is None:
-        # Fallback: take 600k chars from start — enough for any MD&A
-        end_pos = start_pos + 600000
-        print(f"  MD&A end boundary: fallback (600k chars)")
+    if not best_mda:
+        raise ValueError("MD&A section not found — no valid start/end combination")
 
-    mda = full_text[start_pos:end_pos].strip()
+    print(f"  MD&A end boundary: '{best_end_label}'")
 
-    if len(mda) < 10000:
-        raise ValueError(f"MD&A too short ({len(mda):,} chars) — extraction may have failed")
+    if len(best_mda) < 10000:
+        raise ValueError(f"MD&A too short ({len(best_mda):,} chars) — extraction may have failed")
 
-    return mda
-
-    if not matches:
-        raise ValueError("MD&A section not found in filing")
-
-    return max(matches, key=lambda m: len(m.group(1))).group(1).strip()
+    return best_mda
 
 
 def run(ticker: str, filing_type: str = "10-Q", limit: int = 3, email: str = "user@example.com") -> dict:
